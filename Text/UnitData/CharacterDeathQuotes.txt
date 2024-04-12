@@ -1,0 +1,73 @@
+## BenDeath
+[OpenMidRight][LoadBenSad]I felt that more than I[NL]
+should've[...] Sorry, everyone[...A][NL]
+[CloseEyes]I need to[...]fall back[...A][X]
+
+## NepDeath
+[OpenMidRight][LoadNepSad][CloseEyes][MoveMidRight]Nngh[...!] That[...] hurt[...A][N]
+[OpenEyes]Sorry, everyone.[....] I need[N]
+to get out of here[...A][X]
+
+## AphiDeath
+[OpenMidRight][LoadAphi][CloseEyes]Oof[...] [OpenEyes]Sorry guys, I need[NL]
+to pull back, else I'll die[...A][NL]
+See ya[...A][X]
+
+## ZoDeath
+[OpenMidRight][LoadZoSad]N-no[...] I can't[...] go on. Sorry,[N]
+everyone, I need to[...]retreat[...A][X]
+
+## TedDeath
+[OpenMidRight][LoadTed][CloseEyes]Ugh[...] that's gonna hurt in the[N]
+morning.[.4] [OpenEyes]I've got to fall back[AN]
+for now.[A][X]
+
+## HexDeath
+[OpenMidRight][LoadHex][MoveMidRight]Dammit![....] [CloseEyes]They almost have me[...A][N]
+[OpenEyes]I'm not about to fall in a place[N]
+like this[...A][N]
+Sorry, commander, I need to[N]
+fall back.[A][X]
+
+## NateDeath
+[OpenMidRight][LoadNate][CloseEyes][MoveMidRight]Ouch![....] [OpenEyes]I've never been hit THAT[N]
+hard before[...A][N]
+I'm getting out of here.[A][X]
+
+## MaeDeath
+[OpenMidRight][LoadMae]Ugh[...][CloseEyes] My bad, guys[...A][NL]
+[OpenEyes]I've gotta pull back before[NL]
+my legs give out[...] Good luck[...!][A][X]
+
+## OstravaDeath
+[OpenMidRight][LoadOst]Oh well this is just terrific[...A][N]
+I'd love to stay and die, but[N]
+I got better things to do than[AN]
+spill my shmutz for you bloody[N]
+Maydaks![A][X]
+
+## NanaDeath
+[OpenMidRight][LoadNana][MoveMidRight][MoveMidRight]Rrrgh[...!] Damn you![NL]
+[MoveMidRight]YOU'LL PAY FOR THAT![A][CloseSpeechSlow][ClearFace][OpenMidRight][LoadBenMad]Nana![....] Get out of here![A][NL]
+[MoveMidRight]Now![A][CloseSpeechSlow][ClearFace][OpenMidRight][LoadNana][CloseEyes]Ugh[...][MoveMidRight]Fine![....] [ToggleSmile][OpenEyes]Good luck,[NL]
+guys!~[A][X]
+
+## MimiDeath
+[OpenMidRight][LoadMimi][CloseEyes]That's gonna take a bit to[N]
+stitch back together[...A][N]
+[MoveMidRight][OpenEyes]S-sorry, but I gotta go![A][X]
+
+## RoseDeath
+[OpenMidRight][LoadRose][MoveMidRight]Tch![...] Sorry, but I'm not[N]
+about to throw my life away.[AN]
+I'm falling back[...A][X]
+
+## ZanosDeath
+[OpenMidRight][LoadZanos][CloseEyes]Figures[...] Sorry everyone,[N]
+I'll just[...] get out of the way[...A][X]
+
+## SonuDeath
+[OpenMidRight][LoadSonu][MoveMidRight][CloseEyes]YEOWCH![....] [OpenEyes]Yeah, I can't fight like[N]
+this[...A][N]
+I'm gonna split.[N]
+[ToggleSmile]Take care everyone![A][X]

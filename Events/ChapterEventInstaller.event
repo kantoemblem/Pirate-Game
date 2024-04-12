@@ -1,0 +1,13 @@
+{
+#include "ChapterP.event"
+}
+
+{
+#include "ChapterP2.event"
+}
+
+
+GameOverStart:
+ASMC 0x800D391
+NoFade
+ENDB

@@ -1,0 +1,103 @@
+## BenName
+Ben[X]
+
+## NepName
+Nep[X]
+
+## AphiName
+Aphi[X]
+
+## ZoName
+Zo[X]
+
+## TedName
+Ted[X]
+
+## HexName
+Hex[X]
+
+## NateName
+Nate[X]
+
+## MaeName
+Mae[X]
+
+## OstName
+Ostrava[X]
+
+## NanaName
+Nana[X]
+
+## MimiName
+Mimi[X]
+
+## RoseName
+Rose[X]
+
+## ZanosName
+Zanos[X]
+
+## SonuName
+Sonu[X]
+
+
+## BenDesc
+An eccentric swordsman. Leader of[NL]
+Ben and Zo's Mercenary Co.[NL]
+Goes by the name [OpenQuote]Bringer of Chaos!"[X]
+
+## NepDesc
+A cheerful adventurer from a distant[N]
+land. Kind-hearted, but plagued by[N]
+her past.[X]
+
+## AphiDesc
+A magical prodigy and researcher.[NL]
+Eccentric and hardworking.[X]
+
+## ZoDesc
+Co-founder of Ben and Zo's[NL]
+Mercenary Co. Dedicated to her work.[X]
+
+## TedDesc
+A nonchalant wyvern breeder with a[N]
+unique sense of humour. A dedicated[N]
+member and co-founder of the company.[X]
+
+## HexDesc
+A powerful warrior and war hero.[N]
+Sarcastic, but motherly and kind.[X]
+
+## NateDesc
+An upbeat swordfighter and Ben's[N]
+brother. Eager to prove himself.[X]
+
+## MaeDesc
+An attractive archer. Has a bubbly[NL]
+personality and is a crack-shot with[NL]
+a bow. Known as the Red Sun.[X]
+
+## OstDesc
+A Wayward fighter of no renown.[N]
+Witty and outspoken.[X]
+
+## NanaDesc
+A joyful young woman who comes[N]
+from a large family of merchants.[NL]
+Eccentric and determined.[X]
+
+## MimiDesc
+A friendly cloth creature brought back[N]
+via ancient ritual and familial love.[X]
+
+## RoseDesc
+A wandering mercenary currently in Ben's[N]
+employ. Quick witted, but kind.[X]
+
+## ZanosDesc
+A self-deprecating vagabond who[N]
+wishes to be better.[X]
+
+## SonuDesc
+A cheerful adventurer who leaves[N]
+naught but smiles in her wake.[X]
