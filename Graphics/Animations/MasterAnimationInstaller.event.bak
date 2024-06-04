@@ -258,10 +258,10 @@
 	#include "25Cleric/Unarmed/clef_un1 Installer.event" //C8
 	}
 	{
-	#include "26Troubadour/Staff/trof_ro1 Installer.event" //86
+	#include "26Troubadour/Staff/Staff Installer.event" //86
 	}
 	{
-	#include "26Troubadour/Unarmed/trof_un1 Installer.event" //85
+	#include "26Troubadour/Unarmed/Unarmed Installer.event" //85
 	}
 	{
 	#include "27ThiefM/Sword/thim_sw1 Installer.event" //89

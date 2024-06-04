@@ -1,6 +1,6 @@
 INLINE NewMovingMapSpriteTable,Animation pointer,Another pointer
 Commander,CommanderMove|IsPointer,0x81c3d7c
-Princess,PrincessMove|IsPointer,0x81c46cc
+Priestess,PriestessMove|IsPointer,0x81c46cc
 Acolyte,AcolyteMove|IsPointer,0x81c46cc
 Tactician,TacticianMove|IsPointer,0x81c46cc
 Cavalier,CavalierMMove|IsPointer,0x81c692c

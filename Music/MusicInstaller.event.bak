@@ -85,6 +85,11 @@ SongTable(0x1C,song1C,0)
 }
 
 {
+SongTable(0x2E,song2E,0)
+#include "songs/Event/PerkusTheme.event"
+}
+
+{
 SongTable(0x34,song34,0)
 #include "songs/Event/AriseWarriors.event"
 }

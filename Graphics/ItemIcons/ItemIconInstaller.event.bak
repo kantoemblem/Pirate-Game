@@ -47,7 +47,7 @@ ItemIconSlot(0x27,"Axe/91Handaxe.png")
 ItemIconSlot(0x28,"Axe/93Tomahawk.png")
 ItemIconSlot(0x29,"Axe/88SwordReaver.png")
 ItemIconSlot(0x2A,"Axe/89Swordslayer.png")
-//ItemIconSlot(0xB3,"Axe/Audhumbla.png")
+ItemIconSlot(0xB3,"Axe/Audhumbla.png")
 ItemIconSlot(0xB4,"Axe/Invincible.png")
 
 //Bows

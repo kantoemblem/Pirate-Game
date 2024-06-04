@@ -133,3 +133,5 @@ a skill when used.[X]
 #include "UnitData/CharacterDeathQuotes.txt"
 
 #include "UnitData/BossData.txt"
+
+#include "ChapterText/ChapterP.txt"

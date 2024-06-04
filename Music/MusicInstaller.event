@@ -94,7 +94,10 @@ SongTable(0x34,song34,0)
 #include "songs/Event/AriseWarriors.event"
 }
 
-
+{
+SongTable(0x58,song58,0)
+#include "songs/Event/FrontierVillage.event"
+}
 
 
 

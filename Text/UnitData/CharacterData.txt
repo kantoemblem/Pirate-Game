@@ -1,8 +1,8 @@
 ## BenName
 Ben[X]
 
-## NepName
-Nep[X]
+## LivvyName
+Livvy[X]
 
 ## AphiName
 Aphi[X]
@@ -42,14 +42,13 @@ Sonu[X]
 
 
 ## BenDesc
-An eccentric swordsman. Leader of[NL]
-Ben and Zo's Mercenary Co.[NL]
-Goes by the name [OpenQuote]Bringer of Chaos!"[X]
+A bombastic swordsman who goes[N]
+by the name [OpenQuote]Bringer of Chaos!"[N]
+Leads Ben and Zo's Mercenary Co.[X]
 
-## NepDesc
-A cheerful adventurer from a distant[N]
-land. Kind-hearted, but plagued by[N]
-her past.[X]
+## LivvyDesc
+A doctor who studies shapeshifting[N]
+magic. Cheeky and enthusiastic.[X]
 
 ## AphiDesc
 A magical prodigy and researcher.[NL]
@@ -57,16 +56,16 @@ Eccentric and hardworking.[X]
 
 ## ZoDesc
 Co-founder of Ben and Zo's[NL]
-Mercenary Co. Dedicated to her work.[X]
+Mercenary Co. Anxious, but dedicated.[X]
 
 ## TedDesc
 A nonchalant wyvern breeder with a[N]
 unique sense of humour. A dedicated[N]
-member and co-founder of the company.[X]
+member, and co-founder, of the company.[X]
 
 ## HexDesc
-A powerful warrior and war hero.[N]
-Sarcastic, but motherly and kind.[X]
+A grizzled yet kind war hero. Equal[N]
+parts sarcastic and motherly.[X]
 
 ## NateDesc
 An upbeat swordfighter and Ben's[N]
@@ -84,19 +83,20 @@ Witty and outspoken.[X]
 ## NanaDesc
 A joyful young woman who comes[N]
 from a large family of merchants.[NL]
-Eccentric and determined.[X]
+Eccentric and strong-willed.[X]
 
 ## MimiDesc
-A friendly cloth creature brought back[N]
-via ancient ritual and familial love.[X]
+A friendly cloth creature. Once a[N]
+human child, now given new life via[N]
+ancient ritual and familial love.[X]
 
 ## RoseDesc
 A wandering mercenary currently in Ben's[N]
-employ. Quick witted, but kind.[X]
+employ. Sharp tongued, but kind.[X]
 
 ## ZanosDesc
-A self-deprecating vagabond who[N]
-wishes to be better.[X]
+A self-deprecating vagabond, they[N]
+aspire to better themselves.[X]
 
 ## SonuDesc
 A cheerful adventurer who leaves[N]

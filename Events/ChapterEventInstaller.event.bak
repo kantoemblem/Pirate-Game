@@ -2,6 +2,9 @@
 #include "ChapterP.event"
 }
 
+{
+#include "ChapterP2.event"
+}
 
 
 GameOverStart:

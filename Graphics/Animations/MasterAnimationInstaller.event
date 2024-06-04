@@ -25,14 +25,14 @@
 	#include "0Commander/Unarmed/comm_un1 Installer.event" //03
 	}
 	{
-	#include "1Princess/Axe/lorf_ax1 Installer.event" //04
+	#include "1Priestess/Sword/prif_sw1 Installer.event" //04
 	}
 	{
-	#include "1Princess/Handaxe/lorf_hx1 Installer.event" //05
+	#include "1Priestess/Magic/prif_mg1 Installer.event" //05
 	}
-	{
-	#include "1Princess/Unarmed/lorf_un1 Installer.event" //06
-	}
+//	{
+//	#include "1Princess/Unarmed/lorf_un1 Installer.event" //06
+//	}
 	{
 	#include "2Acolyte/acof_mg1 Installer.event" //07
 	}

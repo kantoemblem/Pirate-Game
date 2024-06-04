@@ -33,6 +33,7 @@ ItemIconSlot(0xA7,"Lance/56HeavySpear.png")
 ItemIconSlot(0xA8,"Lance/64ShortSpear.png")
 ItemIconSlot(0xB6,"Lance/57Dragonspear.png")
 ItemIconSlot(0x96,"Lance/67MerchantsLance.png")
+ItemIconSlot(0x8A,"Lance/WingSpear.png")
 
 //Axes
 ItemIconSlot(0x1E,"Axe/71IronAxe.png")

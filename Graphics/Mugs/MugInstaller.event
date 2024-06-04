@@ -13,9 +13,9 @@ Ben_Mug:
 #incext PortraitFormatter "Playables/0Ben.png"
 setMugEntry(0x2, Ben_Mug,2,5,3,3)
 
-Nep_Mug:
-#incext PortraitFormatter "Playables/1Nep.png"
-setMugEntry(0x3, Nep_Mug,4,5,4,3)
+Livvy_Mug:
+#incext PortraitFormatter "Playables/1Livvy.png"
+setMugEntry(0x3, Livvy_Mug,5,6,5,4)
 
 Aphi_Mug:
 #incext PortraitFormatter "Playables/2Aphi.png"
@@ -128,13 +128,13 @@ Ben_Mad_Flip:
 #incext PortraitFormatter "Playables/Alts/0BenMadFlipped.png"
 setMugEntry(0x105, Ben_Mad_Flip,2,5,3,3)
 
-Nep_Sad:
-#incext PortraitFormatter "Playables/Alts/1NepSad.png"
-setMugEntry(0x106, Nep_Sad,4,5,4,3)
+Livvy_Sad:
+#incext PortraitFormatter "Playables/Alts/1LivvySad.png"
+setMugEntry(0x106, Livvy_Sad,5,6,5,4)
 
-Nep_Mad:
-#incext PortraitFormatter "Playables/Alts/1NepAngry.png"
-setMugEntry(0x107, Nep_Mad,4,5,4,3)
+Livvy_Mad:
+#incext PortraitFormatter "Playables/Alts/1LivvyMad.png"
+setMugEntry(0x107, Livvy_Mad,5,6,5,4)
 
 //Aphi_Sad:
 //#incext PortraitFormatter "Playables/Alts/2AphiSad.png"
@@ -264,13 +264,13 @@ setMugEntry(0x119, Mae_NoArmor,3,5,3,3)
 //#incext PortraitFormatter "Playables/Alts/11RoseMad.png"
 //setMugEntry(0x127, Rose_Mad,3,5,3,3)
 
-//Zanos_Sad:
-//#incext PortraitFormatter "Playables/Alts/12ZanosSad.png"
-//setMugEntry(0x128, Zanos_Sad,3,5,3,3)
+Zanos_Sad:
+#incext PortraitFormatter "Playables/Alts/12ZanosSad.png"
+setMugEntry(0x128, Zanos_Sad,3,5,3,3)
 
-//Zanos_Mad:
-//#incext PortraitFormatter "Playables/Alts/12ZanosMad.png"
-//setMugEntry(0x129, Zanos_Mad,3,5,3,3)
+Zanos_Mad:
+#incext PortraitFormatter "Playables/Alts/12ZanosMad.png"
+setMugEntry(0x129, Zanos_Mad,3,5,3,3)
 
 //Sonu_Sad:
 //#incext PortraitFormatter "Playables/13SonuSad.png"

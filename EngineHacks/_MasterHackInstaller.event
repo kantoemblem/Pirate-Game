@@ -243,4 +243,16 @@ POP
   // Save/Suspend Expansion
     MESSAGE "Using EMS Save/Suspend Expansion"
     #include "Necessary/ExpandedModularSave/ExModularSave.event"
+	
+// Free Move Patch
+ #include "MyPatches/FreeMovement/cFreeMU/FreeMovement.event"
+ 
+ // Text Engine Rework
+ #include "MyPatches/FE8TextEngineRework/_FE8-Text_Engine_Rework_EA.event"
+	
 
+//// Melee Magic Sword Fix
+PUSH 
+ORG $18a58
+#incbin "MyPatches/MeleeAndMagicFix_ItemFix20220721/MeleeAndMagicFix_FE8U.dmp" 
+POP

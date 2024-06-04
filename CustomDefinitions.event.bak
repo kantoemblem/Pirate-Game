@@ -29,7 +29,7 @@
 
 //Unit Definitions
 #define Ben 0x1
-#define Nep 0x2
+#define Livvy 0x2
 #define Aphi 0x3
 #define Zo 0x4
 #define Ted 0x5
@@ -45,7 +45,7 @@
 #define Sonu 0xE
 
 #define Commander 0x1
-#define Princess 0x2
+#define Priestess 0x2
 #define Acolyte 0x3
 #define Tactician 0x4
 #define Supplier 0x10
@@ -63,13 +63,21 @@
 
 #define GrowthBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB) "BYTE 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 HPB StrB SklB SpdB DefB ResB LckB MagB 0x0 0x0"
 
+
+//Graphics definitions
+
 //Class card definition
 #define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
 
-
+//Tileset stuff
 #define TilesetAnimation(speed, size, pointer)    "BYTE speed 0; SHORT size; POIN pointer"
 #define EventPointerListOffset ExpandedPointerList
 #define EventPointerTable(id,offset) "PUSH; ORG EventPointerListOffset+(4*id); POIN offset; POP"
+
+//Item Icons
+
+#define ItemIconSlot(slot,path) "ORG 0x5926F4+(0x80*slot); #incext Png2Dmp path"
+
 
 
 //item ID for skill scroll

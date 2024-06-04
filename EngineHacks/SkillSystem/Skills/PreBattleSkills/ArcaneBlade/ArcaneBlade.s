@@ -51,6 +51,12 @@ ldrh r0, [r4, r1]
 add r0, r6
 strh r0, [r4,r1]
 
+@atk
+mov r1, #0x5A
+ldrh r0, [r4, r1]
+add r0, r6
+strh r0, [r4, r1]
+
 End:
 pop {r4-r7, r15}
 .align

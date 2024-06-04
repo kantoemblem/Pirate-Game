@@ -150,6 +150,12 @@ ValkyrieStand:
 #incext Png2Dmp "Valkyrie/ValkStand.png" --lz77
 ValkyrieMove:
 #incext Png2Dmp "Valkyrie/ValkMove.png" --lz77
+LancerStand:
+#incext Png2Dmp "Lancer/Stand.png" --lz77
+LancerMove:
+#incext Png2Dmp "Lancer/Move.png" --lz77
+
+
 
 //➖➖🟪🟪
 //🟧🟪🟪🟪🟪

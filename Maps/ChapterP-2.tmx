@@ -7,14 +7,14 @@
   <properties>
    <property name="Anims1" value="0x5"/>
    <property name="Anims2" value="0x00"/>
-   <property name="ChapterID" value="0x00"/>
+   <property name="ChapterID" value="0x01"/>
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x0C"/>
    <property name="MapID" value="0x0B"/>
-   <property name="ObjectType1" value="0x1"/>
-   <property name="PaletteID" value="0x2"/>
+   <property name="ObjectType1" value="0xE"/>
+   <property name="PaletteID" value="0xF"/>
    <property name="Table" value=""/>
-   <property name="TileConfig" value="0x3"/>
+   <property name="TileConfig" value="0x10"/>
   </properties>
   <data>
    <tile gid="81"/>

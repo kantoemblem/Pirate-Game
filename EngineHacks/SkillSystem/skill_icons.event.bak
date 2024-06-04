@@ -1117,6 +1117,8 @@ ORG SkillIcon(ChromaticTacticsID)
 ORG SkillIcon(ZornhauID)
 #incbin "SkillIcons/Zornhau.dmp"
 
+ORG SkillIcon(DraconicHexID)
+#incbin "SkillIcons/DraconicHex.dmp"
 
 ORG SkillIcons+0x8000
 

@@ -5,12 +5,12 @@ Commander[X]
 A sword fighter whose armor choice[NL]
 is as bizarre as his fighting style.[X]
 
-## PrincessName
-Princess[X]
+## PriestessName
+Priestess[X]
 
-## PrincessDesc
-God why doesn't Nep write anything[N]
-for herself wtf[X]
+## PriestessDesc
+Holy maidens who use swords, magic,[N]
+and staves to protect their allies.[X]
 
 
 ## TacticianName

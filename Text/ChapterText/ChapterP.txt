@@ -1,0 +1,291 @@
+## Ch1Opening
+_[X]
+
+## FreeMoveStart
+[OpenMidRight][LoadBen][BenBoop][1L]Alright,[....] to work.[A][X]
+
+## LivvyTalk
+[OpenMidLeft][LoadLivvy][LivvyBoop][OpenMidRight][LoadBen][BenBoop][ToggleSmile][1L]Heya, Livvy![....] Patrol treating you well?[A]
+[OpenMidLeft][2L]Awww, were you worried about me?[....] How[N]
+sweet of you![....] [HalfCloseEyes]I'm doing juuust fine.[A]
+[OpenMidRight][3L]That's great, [LoadBenSad][BenBoop]b-but[...][MoveMidRight] I wasn't[N]
+worried at all![....][MoveMidRight] It's my job[N]
+to check on everyone, y'know?[A]
+[OpenMidLeft][OpenEyes][2L]I know, I know, I'm just teasing you.[N]
+[HalfCloseEyes]You make it so easy, you know that?[A]
+[OpenMidRight][ToggleSmile][MoveMidRight][1L]Easy?![A][CSS]What does-[....][MoveMidRight] I mean-[A][CSS][MoveMidRight][CloseEyes]That's[...A][CSS]
+[...][A][CSS][LoadBenMad][BenBoop][ToggleSmile][....][CloseEyes]Hah![A][CSS][MoveMidRight]Bwahahaha![A]
+[OpenMidLeft][LoadLivvySad][LivvyBoop][ToggleSmile][ToggleMouthMove]?[A][ToggleMouthMove]
+[OpenMidRight][MoveMidRight][ToggleSmile][OpenEyes][3L]You may think you have the upper hand,[....][N]
+but soon you will find that the Bringer[N]
+of Chaos is no easy foe![....][MoveMidRight][CloseEyes] Bwahahaha![A]
+[OpenMidLeft][LoadLivvy][LivvyBoop][....][HalfCloseEyes][2L]Riiiiight,[....] [OpenEyes]I forgot about your whole[N]
+shtick.[....] Let me restart for you, okay?[A][CSS][....][CloseEyes][1L]Ahem[...A][CSS]
+[LoadLivvyMad][LivvyBoop][....][CloseEyes][2L]Nyehehe![....] [OpenEyes]You're a fool, Ben von Arencia![....][N][MoveMidLeft]
+As a doctor, I've defeated death itself![AN][MoveMidLeft]
+What hope could you possibly stand in[N]
+the face of such scientific genius!?[A]
+[OpenMidRight][LoadBen][BenBoop][MoveMidRight][1L][...!][A][CSS][LoadBenMad][BenBoop][2L]Come, then, o Deathslayer![....] Our[N]
+duel shall shake the very heavens![A]
+[OpenMidLeft][1L]Nyehehehe![A]
+[OpenMidRight][CloseEyes]Bwahahaha![A]
+[OpenMidLeft][LoadLivvy][LivvyBoop][....][CloseEyes][2L]Hehehe[...] ah, you're[N]
+fun,[....] [OpenEyes]y'know that?[A]
+[OpenMidRight][LoadBen][BenBoop][ToggleSmile][MoveMidRight]F-fun?[....] [MoveMidRight]Uh[...][LoadBenSad][BenBoop][ToggleSmile][MoveMidRight] heh.[....][N]
+You too,[....] and[....] stuff[...A]
+[OpenMidLeft][CloseEyes]*Sigh*[...] playtime aside,[....] [OpenEyes]did you need me[N]
+for anything, or should I get back to it?[A][X]
+
+
+
+
+## LivvyAccept
+[OpenMidRight][LoadBen][BenBoop][OpenMidLeft][LoadLivvy][LivvyBoop][OpenMidRight][3L]I was just wondering if you'd join me[N]
+on the vanguard.[....][MoveMidRight][LoadBenSad][BenBoop][MoveMidRight][ToggleSmile] I-I mean, myself[N]
+and all the others, of course![A]
+[OpenMidLeft]Aww, [HalfCloseEyes]you know I'd join you anywhere![....][N]
+[OpenEyes]Count me in.[....] I was honestly getting[N]
+kinda tired of patrols, anyway.[A]
+[OpenMidRight][LoadBen][BenBoop]Great![....] That's really great.[....][N]
+[ToggleSmile]And hey, stick close to me[N]
+once the fighting starts, yeah?[A][CSS]
+[2L]I don't want to see you getting[N]
+yourself hurt, you got that?[A]
+[OpenMidLeft][ToggleSmile]With how you fight?[....] I'd be stupid[N]
+to stick close to anybody else![A][CSS]
+[3L][HalfCloseEyes]I swear, one of these days, I'm[N]
+gonna have to sew that handsome[N]
+head of yours back onto your body[...A][X]
+
+
+
+## AphiTalk
+[OpenMidLeft][LoadAphi][AphiBoop][OpenMidRight][LoadBen][BenBoop][OpenMidLeft]Aphi Talk.[A][X]
+
+
+## AphiAccept
+[OpenMidLeft][LoadAphi][AphiBoop][OpenMidRight][LoadBen][BenBoop]You're in.[A][X]
+
+## ZoTalk
+[OpenMidLeft][LoadZo][OpenMidRight][LoadBen][BenBoop][OpenMidLeft][LoadZoSad][ZoBoop][CloseEyes]Honestly, you'd think this place[N]
+could afford to invest in proper security[...A]
+[OpenMidRight][LoadBenSad][BenBoop][ToggleSmile][1L]I think that's what we're here for, Zo.[A]
+[OpenMidLeft][ToggleSmile][LoadZo][ZoBoop][1L]I meant in long-term.[A][CSS]
+[2L]We're mercenaries,[N]
+not a dedicated militia.[A]
+[OpenMidRight][LoadBen][BenBoop][1L]Most of those types snuffed it in the war.[A][CSS][2L]Emperor what's-his-face enlisted any[N]
+bum who could hold a pitch fork.[AN]
+It's understandable why they'd be[N]
+short staffed of late.[A]
+[OpenMidLeft][1L][LoadZoSad][ZoBoop][CloseEyes]I know, I know.[A][CSS][OpenEyes]Still[...A][CSS][2L][LoadZo][ZoBoop]It makes me worry what the guy's gonna do[N]
+once we've completed our job.[AN]
+Even if we repel some pirate crew now,[N]
+another is bound to show up later.[A]
+[OpenMidRight][3L][CloseEyes]I think if the issue drags on for that[N]
+long, it'd probably fall into Tia's hands.[....][N]
+[OpenEyes]I'm honestly surprised it hasn't already.[A]
+[OpenMidLeft][1L][CloseEyes]Yeah[...A][CSS][OpenEyes]We might have to report to her after this.[A]
+[OpenMidRight][CloseEyes][ToggleSmile][2L]Not a bad plan.[....] [OpenEyes]I think we were[N]
+about due for a visit soon anyway![A][X]
+
+
+## ZoAccept
+[OpenMidLeft][ZoBoop][OpenMidRight][BenBoop][ToggleSmile]Speaking of plans,[....] I could use your[N]
+direction on the Vanguard.[....] You down?[A]
+[OpenMidLeft]Of course![....][CloseEyes] A tactician isn't always[N]
+relegated to the backlines, you know.[A]
+[OpenMidRight][1L]Glad to have you aboard, partner![A][X]
+
+## TedTalk
+[OpenMidLeft][LoadTed][TedBoop][OpenMidRight][LoadBen][BenBoop][OpenMidLeft]Ted Talk.[A][X]
+
+## TedAccept
+[OpenMidLeft][LoadTed][TedBoop][OpenMidRight][LoadBen][BenBoop]You're in.[A][X]
+
+## HexTalk
+[OpenMidLeft][LoadHexFlip][HexBoop][OpenMidRight][LoadBenMad][BenBoop][ToggleSmile][1L][CloseEyes]Reporting in, Commander![A]
+[OpenMidLeft][ToggleSmile]At ease.[A][CSS][OpenMidRight][LoadBen][BenBoop][OpenMidLeft][CloseEyes]Honestly[...A][CSS]
+[3L][OpenEyes]When will you learn you can't[N]
+go around accepting every little[N]
+job that comes your way?[A][CSS]
+[2L]Sometimes you have to[N]
+leave people to their fate.[A]
+[OpenMidRight][LoadBenSad][BenBoop][MoveMidRight][1L]Agh, but Commander![A][CSS]
+[2L][LoadBen][BenBoop][....][CloseEyes]The whole country's been a big[N]
+ol' mess since the war ended.[A][CSS]
+[3L][OpenEyes]What kind of hero of justice would I be[N]
+if I willingly let a whole town's worth[N]
+of people suffer?[A]
+[OpenMidLeft][3L]You can't be everywhere at once.[N]
+If you overextend yourself,[N]
+you help no one.[A]
+[OpenMidRight][CloseEyes][2L]I see your point. We are[N]
+only a small company still[...A][CSS]
+[1L]Hmm[...][A][CSS][OpenEyes][3L]Tia's got a real finger on[N]
+the pulse on the most pressing[N]
+issues in Nothric are right now.[AN]
+[ToggleSmile]How about after this job,[N]
+we take a small[...] hiatus until[N]
+she comes knocking again?[A]
+[OpenMidLeft][LoadHexSadFlip][HexBoop][2L][....][CloseEyes][ToggleSmile]You're hopless sometimes,[N]
+I swear[...] [LoadHexFlip][HexBoop]Fine[...A]
+[OpenMidRight][LoadBenMad][BenBoop][ToggleSmile]Relax, Commander![AN]
+[CloseEyes]I know what I'm doing![A]
+[OpenMidLeft][HalfCloseEyes][1L][ToggleSmile]We'll see about that.[A][X]
+
+## HexAccept
+[OpenMidLeft][LoadHexFlip][HexBoop][OpenMidRight][LoadBen][BenBoop][ToggleSmile][HalfCloseEyes][3L]If you really want to keep me from[N]
+overexerting myself,[....] [OpenEyes]why don't[N]
+you join me on the frontlines?[A][CSS]
+[1L]I could use your strength, my teacher.[A]
+[OpenMidLeft][3L][ToggleSmile][CloseEyes]*Sigh*[....] [OpenEyes]I guess you can't learn[N]
+if you're on the ground choking[N]
+on your own blood[...A][CSS]
+[1L][CloseEyes]Fine.[....][ToggleSmile] Let's carve these pirates![A][X]
+
+
+## NateTalk
+[OpenMidLeft][LoadNate][NateBoop][OpenMidRight][LoadBen][BenBoop][OpenMidLeft]Nate Talk.[A][X]
+
+## NateAccept
+[OpenMidLeft][LoadNate][NateBoop][OpenMidRight][LoadBen][BenBoop]You're in.[A][X]
+
+## MaeTalk
+[OpenMidLeft][LoadMae][MaeBoop][OpenMidRight][LoadBen][BenBoop][OpenMidLeft]Mae Talk.[A][X]
+
+## MaeAccept
+[OpenMidLeft][LoadMae][MaeBoop][OpenMidRight][LoadBen][BenBoop]You're in.[A][X]
+
+## OstTalk
+[OpenMidLeft][LoadOst][OstBoop][OpenMidRight][LoadBen][BenBoop][OpenMidLeft]Ostrava Talk.[A][X]
+
+## OstAccept
+[OpenMidLeft][LoadOst][OstBoop][OpenMidRight][LoadBen][BenBoop]You're in.[A][X]
+
+## NanaTalk
+[OpenMidLeft][LoadNana][NanaBoop][OpenMidRight][LoadBen][BenBoop][OpenMidLeft]Nana Talk.[A][X]
+
+## NanaAccept
+[OpenMidLeft][LoadNana][NanaBoop][OpenMidRight][LoadBen][BenBoop]You're in.[A][X]
+
+## MimiTalk
+[OpenMidLeft][LoadMimi][MimiBoop][OpenMidRight][LoadBen][BenBoop][OpenMidLeft][MoveMidLeft]Oh![....] Hello Ben![N]
+Did you need something from me?[A]
+[OpenMidRight]Not in particular,[....] just doin' the rounds and[N]
+wanted to check up on one of my pals.[AN]
+You holdin' up okay?[....] I know this[N]
+place is pretty far out from the capital.[A]
+[OpenMidLeft][3L]Ah[...] I'm doing alright.[....] I just really[N]
+miss the library[...] [CloseEyes]and the capital[N]
+as a whole in all honesty.[AN]
+[OpenEyes]The people around here aren't[N]
+really welcoming towards someone[N]
+like me[...] not being human and all[...A]
+[OpenMidRight][LoadBenMad][BenBoop][1L][MoveMidRight]Oh, is that so?[A][CSS]
+[3L][MoveMidRight]Anyone in particular you wanna[N]
+point out to me?[....] I could use[N]
+a little warm up![A]
+[OpenMidLeft][MoveMidLeft][2L]H-huh?![....] [MoveMidLeft]Ben[...!] You shouldn't attack[N]
+people for a reason like that![A][CSS]
+[3L][...]We're not gonna be here for[N]
+long anyways[...] so please don't[N]
+cause a fuss for my sake![A]
+[OpenMidRight][2L]There wouldn't be a fuss.[....][NL]
+I just wanna talk to them.[A][CSS]
+[OpenMidLeft][...][A]
+[OpenMidRight][...][A][CSS][LoadBen][BenBoop][....][CloseEyes][1L]Tch,[....] fine.[A][CSS]
+[3L][OpenEyes]But if anyone starts giving you[N]
+any more problems you come[N]
+find me or Ted.[....] Got it?[A]
+[OpenMidLeft][CloseEyes][2L]As long as you two don't[N]
+get yourselves hurt![A]
+[OpenMidRight][ToggleSmile][1L]Haha, deal.[A][ToggleSmile][X]
+
+
+
+## MimiAccept
+[OpenMidLeft][MimiBoop][OpenMidRight][BenBoop][ToggleSmile]Tell you what, why don't you ride[N]
+with me in the Vanguard?[AN]
+[LoadBenMad][BenBoop]A brave display of heroism is a[N]
+surefire way to shut up the naysayers![A]
+[OpenMidLeft][1L][OpenEyes]I don't mind helping out a bit![A][CSS]
+[2L]Maybe the people around here[N]
+would appreciate the help.[A][X]
+
+
+## RoseTalk
+[OpenMidLeft][LoadRose][RoseBoop][OpenMidRight][LoadBen][BenBoop][OpenMidLeft]Rose Talk.[A][X]
+
+## RoseAccept
+[OpenMidLeft][LoadRose][RoseBoop][OpenMidRight][LoadBen][BenBoop]You're in.[A][X]
+
+## ZanosTalk
+[OpenMidLeft][LoadZanos][ZanosBoop][OpenMidRight][LoadBen][BenBoop][1L]Is everything alright, Zanos?[A][CSS][LoadBenSad][BenBoop][ToggleSmile][2L]You're uh[...] awfully[N]
+hidden away back here[...A][OpenMidLeft][ToggleSmile][1L][CloseEyes][...]I'm just trying to keep out of the sun[...A][CSS][OpenEyes][3L]If a battle commences,[N]
+I won't be of much use if[N]
+I'm distracted by a sunburn.[A]
+[OpenMidRight][LoadBen][BenBoop][....][1L][CloseEyes]True enough, I suppose[...A][CSS][HalfCloseEyes][ToggleSmile][3L]And here I thought you were[N]
+being EXTRA diligent and checking[N]
+the back alleys for hidden assailants.[A]
+[OpenMidLeft][HalfCloseEyes][1L]It's called multitasking,[....] you know?[A]
+[OpenMidRight]Sure, sure[...A][X]
+
+## ZanosAccept
+[OpenMidLeft][ZanosBoop][OpenMidRight][BenBoop][3L]Speaking of multitasking,[....][N]
+I didn't just come here to[N]
+check on you.[A][CSS]
+[2L]I wanted to ask if you'd join me on[N]
+the frontlines in the event of a battle.[A][CSS]
+[3L][ToggleSmile]You're pretty handy with a staff,[N]
+and tough as nails to boot![N]
+I could use a girl like you out there.[A]
+[OpenMidLeft][OpenEyes][2L][...]I suppose if you're planning to pay[N]
+me, I best do my job, huh?[....] Very well.[A][X]
+
+
+## SonuTalk
+[OpenMidLeft][LoadSonu][SonuBoop][OpenMidRight][LoadBen][BenBoop][ToggleSmile]Hey Sonu,[....] great view out here, huh?[N][....]
+Mind if I join you?[A]
+[OpenMidLeft][1L]Sure![....] Just take care not to fall in![A]
+[OpenMidRight][2L]Haha, I hear that![....] Hard to fight when[N]
+you're sopping wet, right?[A]
+[OpenMidLeft][1L]You said it![A][CSS][2L]How's patrol treating you?[N]
+I trust it's been a calm watch?[A]
+[OpenMidRight][1L][ToggleSmile]No complaints. Everything's five-by-five.[A][CSS]
+[2L]How about you? Anything standout[N]
+on your end?[A]
+[OpenMidLeft][3L]Not much. Just that ship with the weird flag.[....][N]
+It's hard for me to understand their tongue[N]
+and gestures.[....] [ToggleSmile]They sound like frogs to me![A]
+[OpenMidRight][LoadBenSad][BenBoop][2L][....][CloseEyes]At least you're paying attention to[N]
+their standards in your own way[...A]
+[OpenMidLeft][ToggleSmile]What do you mean by that?[N]
+Don't they sound like frogs to you?[A][CSS][1L]Ribbit.[A][X]
+
+## SonuAccept
+[OpenMidLeft][LoadSonu][SonuBoop][OpenMidRight][LoadBen][BenBoop][ToggleSmile][1L]Haha,[....][CloseEyes] I suppose they do at that.[AN]
+[OpenEyes][ToggleSmile]Speaking of[...A][CSS]
+[3L]If a fight breaks out,[....] [ToggleSmile]what say you and[N]
+me show those pirates what us old frogs[N]
+are made of, eh?[A]
+[OpenMidLeft][3L]Sure thing! Give me the go[N]
+and I'll make 'em regret[N]
+hopping to us![A][X]
+
+## VanguardComplete
+[OpenMidRight][LoadBen][BenBoop][ToggleSmile]Alright![....] I've got a[N]
+pretty good team together![AN]
+[ToggleSmile]I should head back to the tavern[N]
+After I finish making my rounds.[A][X]
+
+## AddToVanguard
+[OpenMidRight][LoadBen][BenBoop][2L][....][CloseEyes][ToggleMouthMove]Should I add this person to the Vanguard?[N]
+[Yes][OpenEyes][X]
+
+## EndFreeMove1
+Lol[A][X]
+
+## EndFreeMove2
+Are you done exploring?[N]
+[Yes][X]
+
