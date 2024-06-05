@@ -54,9 +54,14 @@ mov  r1, #0xF
 blh  ProcGoto
 
 ldr  r0, =gChapterData
-add  r0, #0xF
+
+mov  r2, #0xF
 mov  r1, #0x80
-strb r1, [r0]
+strb r1, [r0, r2]
+
+mov  r2, #0x10
+mov  r1, #0x0
+strb r1, [r0, r2]
 pop  {r0}
 bx   r0
 
