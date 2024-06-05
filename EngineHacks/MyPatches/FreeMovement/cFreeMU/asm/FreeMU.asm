@@ -8,7 +8,11 @@
 	.short 0xF800
 .endm
 
+.equ gChapterData, 0x202BCF0
 
+.equ ProcFind, 0x8002E9D
+.equ ProcGoto, 0x8002F25
+.equ StartUnitListScreenField, 0x80920C5
 
 .global FreeMovementMenuOnBPress
 .type FreeMovementMenuOnBPress, %function
@@ -37,8 +41,24 @@ pop {r1}
 bx r1
 
 
+.global ASMC_EndFreeMovement
+.type ASMC_EndFreeMovement, %function
 
+ASMC_EndFreeMovement:
+push {lr}
+bl   DisableFreeMovementASMC
+ldr  r0, =FreeMovementControlProc
+blh  ProcFind
 
+mov  r1, #0xF
+blh  ProcGoto
+
+ldr  r0, =gChapterData
+add  r0, #0xF
+mov  r1, #0x80
+strb r1, [r0]
+pop  {r0}
+bx   r0
 
 
 

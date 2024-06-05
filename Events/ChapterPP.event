@@ -481,10 +481,10 @@ EndofFreeMove:
 	BEQ 0x0 0xC 0x7 //Branch Event
 	FADI 0xF
 	ClearAll
+	ASMC ASMC_EndFreeMovement
 	LOMA 0x0
 	CALL(UnitSorter)
 	CALL(ChapterStart)
-	DisableFreeMovement
 	LABEL 0x0
 	NoFade
 	ENDA
