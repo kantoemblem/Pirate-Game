@@ -476,16 +476,16 @@ CounterCheck:
 EndofFreeMove:
 	Text(EndFreeMove1)
 	ENUF 0x3
-//	Text(EndFreeMove2)
-//	SVAL 0x7 0x1
-//  BEQ 0x0 0xC 0x7 //Branch Event
+	Text(EndFreeMove2)
+	SVAL 0x7 0x1
+	BEQ 0x0 0xC 0x7 //Branch Event
 	FADI 0xF
 	ClearAll
+	ASMC ASMC_EndFreeMovement
 	LOMA 0x0
 	CALL(UnitSorter)
 	CALL(ChapterStart)
-//	CALL(EndActions)
-	DisableFreeMovement
+	ENUF 0x84
 	LABEL 0x0
 	NoFade
 	ENDA
