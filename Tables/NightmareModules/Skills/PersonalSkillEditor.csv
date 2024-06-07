@@ -1,19 +1,19 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
 Ben,FuryID
-Nep,SuperSonicSpeedID
+Livvy,0x0
 Aphi,AphiSkillID
 Zo,ChromaticTacticsID
 Ted,ChargeID
 Hex,SilentPrideID
 Nate,CritUpID
-Mae,SureShotID
+Mae,HawkeyeID
 Ostrava,ZornhauID
 Nana,MultiscaleID
 Mimi,MiracleID
 Rose,DuelistsBlowID
 Zanos,BracingStanceID
-Sonu,LunaID
+Sonu,SonuPersonalID
 Ephraim,InspirationID
 Forde,SpurSpdID
 Kyle,SpurStrID

@@ -1676,4 +1676,7 @@ when initiating battle.[X]
 
 ## SD_DraconicHex ^
 Draconic Hex: Debuff all opponent's stats[N]
-by 4 after combat. (Recover 2/turn)
+by 4 after combat. (Recover 2/turn)[X]
+
+## SD_SonuPersonal
+Woah its sonu thats crazy[X]

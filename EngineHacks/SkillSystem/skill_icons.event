@@ -462,7 +462,7 @@ ORG SkillIcon(VantagePlusID)
 #incbin "SkillIcons/VantagePlus.dmp"
 
 ORG SkillIcon(HawkeyeID)
-#incbin "SkillIcons/Hawkeye.dmp"
+#incbin "SkillIcons/SureShot.dmp"
 
 ORG SkillIcon(SolidarityID)
 #incbin "SkillIcons/Solidarity.dmp"

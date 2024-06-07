@@ -5,9 +5,9 @@ BYTE 10 InfiltratorID
 BYTE 00 00
 ALIGN 4
 
-NepSkills:
-BYTE 5 VigilanceID
-BYTE 10 GaleforceID 117
+LivSkills:
+BYTE 5 CantoID
+BYTE 10 DazzleID 117
 BYTE 00 00
 ALIGN 4
 
@@ -43,7 +43,7 @@ ALIGN 4
 
 MaeSkills:
 BYTE 25 RouseStrID
-BYTE 30 CertainBlowID
+BYTE 30 Galeforce
 BYTE 00 00
 ALIGN 4
 
@@ -66,7 +66,7 @@ BYTE 00 00
 ALIGN 4
 
 RoseSkills:
-BYTE 5 AlertStancePlusID
+BYTE 5 QuickDrawID
 BYTE 10 CelerityID
 BYTE 00 00
 ALIGN 4

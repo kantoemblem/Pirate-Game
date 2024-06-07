@@ -208,29 +208,29 @@ Mae_NoArmor:
 #incext PortraitFormatter "Playables/Alts/7MaeNoArmor.png"
 setMugEntry(0x119, Mae_NoArmor,3,5,3,3)
 
-//Mae_Sad:
-//#incext PortraitFormatter "Playables/Alts/7MaeSad.png"
-//setMugEntry(0x11A, Mae_Sad,3,5,3,3)
+Mae_Sad:
+#incext PortraitFormatter "Playables/Alts/7MaeSad.png"
+setMugEntry(0x11A, Mae_Sad,3,5,3,3)
 
-//Mae_Sad_Flip:
-//#incext PortraitFormatter "Playables/Alts/7MaeSadFlip.png"
-//setMugEntry(0x11B, Mae_Sad,3,5,3,3)
+Mae_Sad_Flip:
+#incext PortraitFormatter "Playables/Alts/7MaeSadFlip.png"
+setMugEntry(0x11B, Mae_Sad,3,5,3,3)
 
-//Mae_Sad_NoArmor:
-//#incext PortraitFormatter "Playables/Alts/7MaeSadNoArmor.png"
-//setMugEntry(0x11C, Mae_Sad_NoArmor,3,5,3,3)
+Mae_Sad_NoArmor:
+#incext PortraitFormatter "Playables/Alts/7MaeSadNoArmor.png"
+setMugEntry(0x11C, Mae_Sad_NoArmor,3,5,3,3)
 
-//Mae_Mad:
-//#incext PortraitFormatter "Playables/Alts/7MaeMad.png"
-//setMugEntry(0x11D, Mae_Mad,3,5,3,3)
+Mae_Mad:
+#incext PortraitFormatter "Playables/Alts/7MaeMad.png"
+setMugEntry(0x11D, Mae_Mad,3,5,3,3)
 
-//Mae_Mad_Flip:
-//#incext PortraitFormatter "Playables/Alts/7MaeMadFlip.png"
-//setMugEntry(0x11E, Mae_Mad_Flip,3,5,3,3)
+Mae_Mad_Flip:
+#incext PortraitFormatter "Playables/Alts/7MaeMadFlip.png"
+setMugEntry(0x11E, Mae_Mad_Flip,3,5,3,3)
 
-//Mae_Mad_NoArmor:
-//#incext PortraitFormatter "Playables/Alts/7MaeMadFlip.png"
-//setMugEntry(0x11F, Mae_Mad_Flip,3,5,3,3)
+Mae_Mad_NoArmor:
+#incext PortraitFormatter "Playables/Alts/7MaeMadNoArmor.png"
+setMugEntry(0x11F, Mae_Mad_Flip,3,5,3,3)
 
 //Ostrava_Sad:
 //#incext PortraitFormatter "Playables/Alts/8OstravaSad.png"

@@ -61,7 +61,7 @@ ALIGN 4
 
 MimiSkills:
 BYTE 5 VantageID
-BYTE 10 DesperationID
+BYTE 10 DefiantAvoID
 BYTE 00 00
 ALIGN 4
 

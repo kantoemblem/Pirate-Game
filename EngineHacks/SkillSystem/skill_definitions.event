@@ -1259,7 +1259,7 @@
 //Custom Skills:
 
 //Super Sonic Speed: Increases damage dealt based on how much faster Nep is than her opponent
-#define SuperSonicSpeedID 86
+#define SuperSonicSpeedID 255
 
 // Aphi Skill: When using Dark: Attack and Defense +3, Attack Speed -3, When using Light: Attack Speed +3 Hit/Avo/Crit +15, Attack and Defense -3
 #define AphiSkillID 131
@@ -1273,6 +1273,10 @@
 
 //Ostrava Blow, gives Atk and Crit
 #define ZornhauID 237
+
+//Sonu Personal: Negate enemy defense if they can counter attack
+#define SonuPersonalID 86
+
 
 //Display-Only Skills
 

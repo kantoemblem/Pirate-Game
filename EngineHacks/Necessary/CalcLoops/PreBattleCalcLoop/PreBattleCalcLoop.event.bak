@@ -45,6 +45,7 @@ POIN StancesASM
 POIN AirRaidSkillCheck
 POIN SuperSonicSpeed
 POIN AphiSkill
+POIN Zornhau
 #ifdef ENABLE_GBA_LETHALITY
 POIN LethalitySkill 
 #else

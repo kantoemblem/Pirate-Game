@@ -46,6 +46,7 @@ POIN AirRaidSkillCheck
 POIN SuperSonicSpeed
 POIN AphiSkill
 POIN Zornhau
+POIN SonuPersonal
 #ifdef ENABLE_GBA_LETHALITY
 POIN LethalitySkill 
 #else

@@ -394,6 +394,12 @@ Zornhau:
 POIN SkillTester
 WORD ZornhauID
 
+ALIGN 4
+SonuPersonal:
+#incbin "SonuPersonal/SonuPersonal.dmp"
+POIN SkillTester
+WORD SonuPersonalID
+
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 

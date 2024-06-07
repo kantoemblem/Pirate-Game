@@ -1,7 +1,7 @@
 INLINE CharLevelUpSkillTable,Skill List Address
 None,0
 Ben,BenSkills|IsPointer
-Nep,NepSkills|IsPointer
+Livvy,LivSkills|IsPointer
 Aphi,AphiSkills|IsPointer
 Zo,ZoSkills|IsPointer
 Ted,TedSkills|IsPointer
