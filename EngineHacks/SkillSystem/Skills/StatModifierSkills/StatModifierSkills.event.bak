@@ -30,6 +30,8 @@ WORD StrongConstitutionID
 GutsID_Link:
 WORD GutsID 
 
-prLivvyPersonal:
+LivvyPersonal:
 #include "LivvyPersonal/LivvyPersonal.lyn.event"
 #include "LivvyPersonal/LivvyPersonalBuff.event"
+POIN SkillTester
+WORD LivvyPersonalID

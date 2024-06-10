@@ -125,7 +125,7 @@
 
 //Horseguard: +4 defense against horseback enemies if within 3 spaces of an ally horse rider.
 //By Sme
-#define HorseguardID 157
+#define HorseguardID 255
 
 //Armorboost: +4 attack and defense against armored enemies if within 3 spaces of an armored ally.
 //By Sme
@@ -1276,6 +1276,9 @@
 
 //Sonu Personal: Negate enemy defense if they can counter attack
 #define SonuPersonalID 86
+
+//Livvy Personal: Grants +1 mov and +4 to a random stat when healing an ally
+#define LivvyPersonalID 157
 
 
 //Display-Only Skills

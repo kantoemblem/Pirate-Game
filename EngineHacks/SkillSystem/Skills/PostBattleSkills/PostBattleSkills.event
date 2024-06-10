@@ -92,12 +92,13 @@ ALIGN 4
 CantoPlus:
 #include "CantoPlus/cantoplus.lyn.event"
 POIN SkillTester
+POIN GetUnitsInRange
 WORD CantoPlusID
 
 CantoAI_Label:
 WORD CANTO_AI 
 
-MoveActiveTo_sBCoords: 
+/*MoveActiveTo_sBCoords: 
 EVBIT_MODIFY 1 
 EVBIT_T 9 // follow camera 
 ASMC MoveActorToCoords_sB
@@ -106,6 +107,7 @@ SET_ENDTURN (-1)
 //ASMC SetActorCoords 
 NoFade 
 ENDA 
+*/
 
 ALIGN 4
 ReMove:
@@ -139,6 +141,13 @@ WORD ACTION_MOVEACTIVE
 WORD ACTION_SWAP
 WORD ACTION_PUSH
 WORD ACTION_SWARP
+
+ALIGN 4
+RosePersonal:
+#include "RosePersonal/RosePersonal.lyn.event"
+POIN SkillTester
+POIN GetUnitsInRange
+WORD RosePersonalID
 
 
 PUSH //some changes to vanilla code to make everything work

@@ -1120,5 +1120,11 @@ ORG SkillIcon(ZornhauID)
 ORG SkillIcon(DraconicHexID)
 #incbin "SkillIcons/DraconicHex.dmp"
 
+ORG SkillIcon(LivvyPersonalID)
+#incbin "SkillIcons/GoGetEm.dmp"
+
+ORG SkillIcon(RosePersonalID)
+#incbin "SkillIcons/RoseSkill.dmp"
+
 ORG SkillIcons+0x8000
 

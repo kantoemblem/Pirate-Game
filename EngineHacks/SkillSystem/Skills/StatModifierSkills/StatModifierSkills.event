@@ -32,4 +32,6 @@ WORD GutsID
 
 LivvyPersonal:
 #include "LivvyPersonal/LivvyPersonal.lyn.event"
+POIN SkillTester
+WORD LivvyPersonalID
 #include "LivvyPersonal/LivvyPersonalBuff.event"

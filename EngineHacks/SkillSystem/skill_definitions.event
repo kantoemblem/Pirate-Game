@@ -758,7 +758,7 @@
 
 //Aether: First strike absorbs HP, second strike negates defenses. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
-#define AetherID 13
+#define AetherID 255
 
 //Astra: 5 attacks at half damage. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -1277,8 +1277,11 @@
 //Sonu Personal: Negate enemy defense if they can counter attack
 #define SonuPersonalID 86
 
-//Livvy Personal: Grants +1 mov and +4 to a random stat when healing an ally
+//"Go Get 'Em!": Grants +1 mov and +4 to a random stat when healing an ally
 #define LivvyPersonalID 157
+
+//Lone Wing: Focus Canto LOL
+#define RosePersonalID 13
 
 
 //Display-Only Skills

@@ -1684,4 +1684,11 @@ Luna Assault: When unit initiates if foe[N]
 can counter, nullify foe's DEF/RES[X]
 
 ## SD_LivvyPersonal ^
-Woah its livvy <3[X]
+"Go Get 'Em!": When this unit uses a[N]
+staff to heal an ally, the target also[N]
+gain +1 MOV and +4 to a random stat.[X]
+
+## SD_RosePersonal ^
+Lone Wing: After initiating combat, if[N]
+there are no allies within 2 tiles, unit[N]
+can move up to X spaces after combat.[X]
