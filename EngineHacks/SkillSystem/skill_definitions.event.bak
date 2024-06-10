@@ -1275,7 +1275,7 @@
 #define ZornhauID 237
 
 //Sonu Personal: Negate enemy defense if they can counter attack
-#define SonuPersonal ID 86
+#define SonuPersonalID 86
 
 
 //Display-Only Skills

@@ -209,7 +209,7 @@ Mae_NoArmor:
 setMugEntry(0x119, Mae_NoArmor,3,5,3,3)
 
 Mae_Sad:
-/#incext PortraitFormatter "Playables/Alts/7MaeSad.png"
+#incext PortraitFormatter "Playables/Alts/7MaeSad.png"
 setMugEntry(0x11A, Mae_Sad,3,5,3,3)
 
 Mae_Sad_Flip:

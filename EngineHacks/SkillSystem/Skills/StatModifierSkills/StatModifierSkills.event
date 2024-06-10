@@ -29,3 +29,7 @@ StrongConID_Link:
 WORD StrongConstitutionID 
 GutsID_Link:
 WORD GutsID 
+
+LivvyPersonal:
+#include "LivvyPersonal/LivvyPersonal.lyn.event"
+#include "LivvyPersonal/LivvyPersonalBuff.event"

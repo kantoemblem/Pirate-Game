@@ -214,7 +214,7 @@ setMugEntry(0x11A, Mae_Sad,3,5,3,3)
 
 Mae_Sad_Flip:
 #incext PortraitFormatter "Playables/Alts/7MaeSadFlip.png"
-setMugEntry(0x11B, Mae_Sad,3,5,3,3)
+setMugEntry(0x11B, Mae_Sad_Flip,3,5,3,3)
 
 Mae_Sad_NoArmor:
 #incext PortraitFormatter "Playables/Alts/7MaeSadNoArmor.png"
@@ -230,7 +230,7 @@ setMugEntry(0x11E, Mae_Mad_Flip,3,5,3,3)
 
 Mae_Mad_NoArmor:
 #incext PortraitFormatter "Playables/Alts/7MaeMadNoArmor.png"
-setMugEntry(0x11F, Mae_Mad_Flip,3,5,3,3)
+setMugEntry(0x11F, Mae_Mad_NoArmor,3,5,3,3)
 
 //Ostrava_Sad:
 //#incext PortraitFormatter "Playables/Alts/8OstravaSad.png"

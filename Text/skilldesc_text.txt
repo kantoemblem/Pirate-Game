@@ -577,7 +577,8 @@ allies in 2 tiles heal of 20% max HP.[X]
 
 ## SD_Fury ^
 Blazing Justice: +1 Str/Skl/Spd/Lck [N]
-per 20% Max HP Missing.[X]
+per 20% Max HP Missing. Unit takes[N]
+10% HP damage after combat.[X]
 
 ## SD_Dazzle
 Dazzle: Opponents cannot[N]
@@ -1661,7 +1662,7 @@ Super Sonic Speed: Increases damage dealt[N]
 by 1 per Speed greater than opponent.[X]
 
 ## SD_AphiSkill ^
-Harmony: Unit recieves bonuses based on equipped element[N]
+Harmony: Unit recieves bonuses based on weapon.[N]
 [light]: +5 AS, +15 Avo, +15 Crit.[N]
 [dark]: +5 Prt, +15 Hit, +15 Crit avo.[X]
 
@@ -1678,5 +1679,9 @@ when initiating battle.[X]
 Draconic Hex: Debuff all opponent's stats[N]
 by 4 after combat. (Recover 2/turn)[X]
 
-## SD_SonuPersonal
-Woah its sonu thats crazy[X]
+## SD_SonuPersonal ^
+Luna Assault: When unit initiates if foe[N]
+can counter, nullify foe's DEF/RES[X]
+
+## SD_LivvyPersonal ^
+Woah its livvy <3[X]
