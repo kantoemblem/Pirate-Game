@@ -1244,7 +1244,7 @@
 #define AmischeID 255
 
 //Triangle Attack: Allows this unit to perform a triangle attack with 2 other units who have this skill.
-#define TriangleAttackID 6
+#define TriangleAttackID 255
 
 // Shrewd Potential: Stat boosters provide +1 more than usual. 
 // Author: Vesly 
@@ -1283,10 +1283,16 @@
 //Lone Wing: Focus Canto LOL
 #define RosePersonalID 13
 
+//Mastery: Grants additional effects to crits based on equipped weapon type
+#define MasteryID 6
+
+// Inspirit: Deal +5 damage to bosses
+#define InspiritID 4
+
 
 //Display-Only Skills
 
-#define CunningID 4
+#define CunningID 255
 #define NiceThighsID 115
 #define PersonalityID 116
 

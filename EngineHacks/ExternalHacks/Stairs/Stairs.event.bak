@@ -44,7 +44,7 @@
 	POP
 	
 	
-	#include UnitMenuDefs.event
+	#include _UnitMenuDefs.event
 	
 	ALIGN 16
 	UnitMenuTable:
@@ -81,4 +81,3 @@
 	  UM_Supply
 	  UM_Wait
 	  UM_Separator 
-*/

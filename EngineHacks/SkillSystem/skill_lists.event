@@ -13,7 +13,7 @@ ALIGN 4
 
 AphiSkills:
 BYTE 5 GrislyWoundID
-BYTE 10 AdeptID
+BYTE 10 MasteryID
 BYTE 00 00
 ALIGN 4
 
@@ -36,7 +36,7 @@ BYTE 00 00
 ALIGN 4
 
 NateSkills:
-BYTE 5 HeroesDeathBlowID
+BYTE 5 InspiritID
 BYTE 10 KillingMachineID
 BYTE 00 00
 ALIGN 4

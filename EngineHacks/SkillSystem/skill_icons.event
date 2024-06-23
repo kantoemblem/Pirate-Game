@@ -1126,5 +1126,14 @@ ORG SkillIcon(LivvyPersonalID)
 ORG SkillIcon(RosePersonalID)
 #incbin "SkillIcons/RoseSkill.dmp"
 
+ORG SkillIcon(SonuPersonalID)
+#incbin "SkillIcons/LunaAssault.dmp"
+
+ORG SkillIcon(MasteryID)
+#incbin "SkillIcons/Mastery.dmp"
+
+ORG SkillIcon(InspiritID)
+#incbin "SkillIcons/Inspirit.dmp"
+
 ORG SkillIcons+0x8000
 

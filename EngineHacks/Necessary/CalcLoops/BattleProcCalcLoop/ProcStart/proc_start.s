@@ -21,7 +21,7 @@ lsr     r0,r0,#0xD        @Without damage data                @ 0802B40E 0B40
 mov r1, #2 @miss flag
 tst r0, r1
 bne EndLadder
-@if we missed, don't bother doing anything
+@if we missed, dont bother doing anything
 @removed sure shot check, just unset the miss flag if needed.
 ldrh    r0,[r7,#0xA]      @final hit rate                @ 0802B41A 8960     
 mov     r1,#0x1           @Default depending on where battle is called, leave it alone             @ 0802B41C 2101     
@@ -55,7 +55,7 @@ sub r0, r1
 
 @ Cool. Time to check for BarricadePlus. r0 has the damage to write. r9 has a counter of times struck this combat. r4 = inflicter of this strike, r5 = defender of this strike.
 cmp r0, #0x00
-beq StoreDamage2 @ We don't want any of this shit if the damage is 0.
+beq StoreDamage2 @ We dont want any of this shit if the damage is 0.
 push { r0 }
 mov r0, r5
 ldr r1, =BarricadePlusIDLink
@@ -65,7 +65,7 @@ cmp r0, #0x00
 pop { r0 }
 beq SkipBarricadePlus
 @ Okay in case both units have this skill, the counter will use the first byte of r11 for 0x0203A4EC and the second byte for 0x0203A56C.
-@ I mean it really doesn't matter which it is as long as it's consistent.
+@ I mean it really doesnt matter which it is as long as its consistent.
 
 mov r1, r11
 ldr r2, =#0x0203A56C
@@ -105,7 +105,7 @@ Attacker:
 	mov r11, r1 @ Store new counter to r11
 	b StoreDamage2
 
-SkipBarricadePlus: @ Well now I need to check for regular barricade. Let's use the third byte of r11 as a boolean for the attacker on whether do use it and the fourth for the defender.
+SkipBarricadePlus: @ Well now I need to check for regular barricade. Lets use the third byte of r11 as a boolean for the attacker on whether do use it and the fourth for the defender.
 push { r0 }
 mov r0, r5
 ldr r1, =BarricadeIDLink
@@ -175,7 +175,36 @@ add r2, r1 @damagex3
 StoreDamage:
 strh r2, [r7, #4] @final damage
 
-@set crit flag
+@ check for aphi 2nd skill
+mov r0,r4 @ attacker
+ldr r1, =MasteryIDLink
+ldrb r1, [ r1 ]
+blh SkillTester,r3
+cmp r0,#0 @ skill check
+beq SetCritFlag
+
+mov r0, #0x50 @Checks if light is equipped
+ldrb r0, [r4, r0] @r0 = Equipped weapon type
+cmp r0, #0x6 @Light weapon type
+beq SetCritHPDrainFlag
+
+DarkCheck:
+mov r0, #0x50
+ldrb r0, [r4, r0] @r0 = Equipped weapon type
+cmp r0, #0x7 @Dark weapon type
+bne SetCritFlag
+
+@ adds on damage
+mov r1, #4
+ldrsh r1, [r7, r1]
+mov r2, r1
+lsr r1, r1, #2 @ divide damage by 4
+mov r0, #3
+mul r1, r0 @ multiply by 3 to get 75%
+add r2, r1 @ add final damage
+strh r2, [r7, #4]
+
+SetCritFlag: @set crit flag
 ldr     r2,[r6]    
 lsl     r1,r2,#0xD                @ 0802B42C 0351     
 lsr     r1,r1,#0xD                @ 0802B42E 0B49     
@@ -187,6 +216,54 @@ ldr     r0,=#0xFFF80000                @ 0802B434 4804
 and     r0,r2                @ 0802B436 4010     
 orr     r0,r1                @ 0802B438 4308     
 str     r0,[r6]                @ 0802B43A 6018   
+b End
+
+SetCritHPDrainFlag:
+ldr     r2,[r6]    
+lsl     r1,r2,#0xD                @ 0802B42C 0351     
+lsr     r1,r1,#0xD                @ 0802B42E 0B49     
+mov r0, #0x01
+lsl     r0, #8 @ 0x100 HP draining
+add r0, #1 @ add on critical flag?
+orr r1, r0
+ldr     r0,=#0x7FFFF                @ 0802B516 4815     
+and     r1,r0                @ 0802B518 4001
+ldr     r0,=#0xFFF80000                @ 0802B434 4804     
+and     r0,r2                @ 0802B436 4010     
+orr     r0,r1                @ 0802B438 4308     
+str     r0,[r6]                @ 0802B43A 6018  
+
+@ sol code
+@take damage from healing
+mov r0, #4
+ldrsh r0, [r7, r0]
+cmp r0, #0
+ble End @dont do anything
+
+@ divide damage by 2
+lsr r0,r0,#1
+
+mov r1, #5
+ldsb r1, [r6, r1] @existing hp change
+add r0, r1
+
+checkCap:
+@now r0 is total HP change - is this higher than the max HP?
+mov r2, #0x13
+ldrsb r2, [r4,r2] @curr hp
+mov r1, #0x12
+ldrsb r1, [r4,r1] @max hp
+sub r1, r2 @damage taken
+cmp r1, r0
+bge NoCap
+  @if hp will cap, set r0 to damage taken
+  mov r0, r1
+NoCap:
+strb r0, [r6, #5] @write hp change
+mov r2, #0x13
+ldrsb r2, [r4,r2] @curr hp
+add r0, r2 @new hp
+strb r0, [r4, #0x13]
 
 End:
 pop {r4-r7}

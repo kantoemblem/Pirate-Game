@@ -100,6 +100,9 @@ cmp r1, #4
 beq Res
 cmp r1, #5
 beq Luck
+cmp r1, #6
+bge RandomNumberBranch
+b RandomNumberBranch
 
 Str:
 mov r0, r5 @ unit 

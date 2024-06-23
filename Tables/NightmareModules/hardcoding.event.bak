@@ -57,6 +57,17 @@ BYTE 20
 ORG 0x9C31C
 BYTE 20
 
+//Staff EXP
+ORG 0x2C676
+BYTE 10
+
+//Staff Base Hit
+ORG 0x002CD30
+BYTE 200
+
+//EXP calculation formula
+ORG 0x002C37C
+BYTE 10
 
 
 //Aircalibur

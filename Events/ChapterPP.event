@@ -38,6 +38,8 @@ CharacterEventBothWays(0x1C,SonuConvo, Ben, Sonu)
 END_MAIN
 
 LocationBasedEvents:
+Vendor(ShopItems,15,1)
+Armory(ArmoryItems,12,1)
 Seize(0x0,EndofFreeMove,20,1)
 END_MAIN
 
@@ -474,7 +476,7 @@ EndofFreeMove:
 	ENUF 0x3
 	Text(EndFreeMove2)
 	SVAL 0x7 0x1
-	BEQ 0x0 0xC 0x7 //Branch Event
+	BNE 0x0 0xC 0x7 //Branch Event
 	FADI 0xF
 	ClearAll
 	ASMC ASMC_EndFreeMovement
@@ -597,5 +599,31 @@ EndActions:
 	SET_ENDTURN 0xE
 	NoFade
 	ENDA
+
+ShopItems:
+SHLI Fire 0xB6 Lightning Shine Nosferatu Luna Heal Mend Physic Restore Silence Berserk Barrier Vulnerary 0x6D 0xBE 0xBF 0xC0 0xC1 0xC2
+ALIGN 4
+
+ArmoryItems:
+BYTE SteelSword 0
+BYTE SilverSword 0
+BYTE Shamshir 0
+BYTE BraveSword 0
+BYTE Rapier 0
+BYTE SteelLance 0
+BYTE SilverLance 0
+BYTE KillerLance 0
+BYTE Javelin 0
+BYTE SteelAxe 0
+BYTE DevilAxe 0
+BYTE HandAxe 0
+BYTE SilverBow 0
+BYTE BraveBow 0
+BYTE Longbow 0
+BYTE SkillScroll 166
+BYTE SkillScroll 214
+BYTE SkillScroll 20
+BYTE SkillScroll 178
+ALIGN 4
 
 MESSAGE Events end at offset CURRENTOFFSET

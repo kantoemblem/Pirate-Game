@@ -23,12 +23,12 @@
 		ENDA
 		
 		PUSH
-		//ORG $32154
-		//jumpToHack(UnsetMoveDebuff)
-		//ORG $3215E
-		//SHORT 0xE7F9 // b #0x08032152. At the end of the switch, part of the jump to UnsetMoveDebuff.
-		//ORG $320B0
-		//POIN ActionPickRepoint
+		ORG $32154
+		jumpToHack(UnsetMoveDebuff)
+		ORG $3215E
+		SHORT 0xE7F9 // b #0x08032152. At the end of the switch, part of the jump to UnsetMoveDebuff.
+		ORG $320B0
+		POIN ActionPickRepoint
 		
 		ORG $225F8
 		jumpToHack(EndTurnFix)

@@ -104,6 +104,8 @@ BarricadeIDLink:
 BYTE BarricadeID
 BarricadePlusIDLink:
 BYTE BarricadePlusID
+MasteryIDLink:
+BYTE MasteryID
 
 ALIGN 4
 Proc_Finish:

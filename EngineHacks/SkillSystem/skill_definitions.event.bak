@@ -758,7 +758,7 @@
 
 //Aether: First strike absorbs HP, second strike negates defenses. (Skill/2 % activation)
 //Author Unknown (Initial Commit)
-#define AetherID 13
+#define AetherID 255
 
 //Astra: 5 attacks at half damage. (Skill % activation)
 //Author Unknown (Initial Commit)
@@ -1244,7 +1244,7 @@
 #define AmischeID 255
 
 //Triangle Attack: Allows this unit to perform a triangle attack with 2 other units who have this skill.
-#define TriangleAttackID 6
+#define TriangleAttackID 255
 
 // Shrewd Potential: Stat boosters provide +1 more than usual. 
 // Author: Vesly 
@@ -1277,8 +1277,17 @@
 //Sonu Personal: Negate enemy defense if they can counter attack
 #define SonuPersonalID 86
 
-//Livvy Personal: Grants +1 mov and +4 to a random stat when healing an ally
+//"Go Get 'Em!": Grants +1 mov and +4 to a random stat when healing an ally
 #define LivvyPersonalID 157
+
+//Lone Wing: Focus Canto LOL
+#define RosePersonalID 13
+
+//Mastery: Grants additional effects to crits based on equipped weapon type
+#define MasteryID 6
+
+// Inspirit: Deal +5 damage to bosses
+#define InspiritID 
 
 
 //Display-Only Skills

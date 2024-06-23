@@ -12,7 +12,7 @@ BYTE 0x1 // mov
 ALIGN 4
 LivvyStrBuff:
 BYTE 0x4 // str
-BYTE 0x0 // mag
+BYTE 0x4 // mag
 BYTE 0x0 // skl
 BYTE 0x0 // spd
 BYTE 0x0 // def

@@ -45,7 +45,7 @@ ldrb r2,[r3]
 
 /*
 AltMovementCheck:
-@we need trigonometry to get our movement distance since we can't use spaces moved
+@we need trigonometry to get our movement distance since we cant use spaces moved
 @this only works assuming straight lines but not many reasonable other options
 ldr r6,=#0x202BE48 @active unit position (has starting coords)
 @sqrt( (x2-x1)^2 + (y2-y1)^2 )
@@ -68,6 +68,11 @@ FinishCharge:
 */
 lsr r2,#0x1
 mov r1, #0x5A
+ldrh r0, [r4, r1]
+add r0, r2
+strh r0, [r4,r1]
+
+mov r1, #0x5C
 ldrh r0, [r4, r1]
 add r0, r2
 strh r0, [r4,r1]
