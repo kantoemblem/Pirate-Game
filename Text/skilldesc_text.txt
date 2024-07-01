@@ -829,9 +829,9 @@ Bonuses disappear on enemy phase.[X]
 Heavy Strikes: Add weapon[N]
 weight to critical chance.[X]
 
-## SD_Charge
-Charge: Gain +1 damage for[N]
-every two squares moved.[N]
+## SD_Charge ^
+Beastly Fusillade: Gain +1 damage &[N]
+defense for every two squares moved.[N]
 Bonus disappears on enemy phase.[X]
 
 ## SD_Infiltrator
@@ -1700,3 +1700,9 @@ Mastery: On critical, based on weapon:[N]
 
 ## SD_Inspirit
 Inspirit: Deal +5 Damage to bosses.[X]
+
+
+## SD_MutualTrust ^
+Mutual Trust: When healing an ally,[N]
+also heals self. Gains 20% of the ally's[N]
+recovered HP as def/res until next turn[X]

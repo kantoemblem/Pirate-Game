@@ -1287,12 +1287,12 @@
 #define MasteryID 6
 
 // Inspirit: Deal +5 damage to bosses
-#define InspiritID 
+#define InspiritID 4
 
 
 //Display-Only Skills
 
-#define CunningID 4
+#define CunningID 255
 #define NiceThighsID 115
 #define PersonalityID 116
 

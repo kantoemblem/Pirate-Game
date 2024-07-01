@@ -77,7 +77,7 @@ POIN SkillTester
 WORD LiveToServeID
 
 ZanosSkill:
-#include "ZanosSkill/ZanosSkill.lyn.event"
+#include "ZanosSkill/ZanosSkill.dmp"
 POIN SkillTester
 WORD ZanosSkillID
 #include "ZanosSkill/ZanosSkillBuff.event"
