@@ -67,7 +67,7 @@ BYTE 200
 
 //EXP calculation formula
 ORG 0x002C37C
-BYTE 10
+BYTE 0
 
 
 //Aircalibur

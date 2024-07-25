@@ -254,5 +254,5 @@ POP
 //// Melee Magic Sword Fix
 PUSH 
 ORG $18a58
-#incbin "MeleeAndMagicFix_FE8U.dmp" 
+#incbin "MyPatches/MeleeAndMagicFix_ItemFix20220721/MeleeAndMagicFix_FE8U.dmp" 
 POP

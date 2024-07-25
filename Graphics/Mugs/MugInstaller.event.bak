@@ -43,7 +43,7 @@ setMugEntry(0x9, Mae_Mug,3,5,3,3)
 
 Ostrava_Mug:
 #incext PortraitFormatter "Playables/8Ostrava.png"
-setMugEntry(0xA, Ostrava_Mug,2,5,2,3)
+setMugEntry(0xA, Ostrava_Mug,3,5,3,3)
 
 Nana_Mug:
 #incext PortraitFormatter "Playables/9Nana.png"
@@ -70,13 +70,17 @@ Debil_Mug:
 #incext PortraitFormatter "Bosses/0Debil.png"
 setMugEntry(0x30, Debil_Mug,2,6,3,4)
 
-//Narmosa_Mug:
-//#incext PortraitFormatter "Bosses/1Narmosa.png"
-//setMugEntry(0x31, Narmosa_Mug,3,5,3,4)
+Tarte_Mug:
+#incext PortraitFormatter "Bosses/1Tarte.png"
+setMugEntry(0x31, Tarte_Mug,3,6,3,4)
+
+Tarte_Alt_Mug:
+#incext PortraitFormatter "Bosses/1Tarte1.png"
+setMugEntry(0x32, Tarte_Alt_Mug,3,6,3,4)
 
 Perkus_Mug:
 #incext PortraitFormatter "Bosses/2Perkus.png"
-setMugEntry(0x31, Perkus_Mug,2,5,2,4)
+setMugEntry(0x33, Perkus_Mug,2,5,2,4)
 
 
 //NPC
@@ -279,6 +283,9 @@ setMugEntry(0x129, Zanos_Mad,3,5,3,3)
 //Sonu_Mad:
 //#incext PortraitFormatter "Playables/13SonuMad.png"
 //setMugEntry(0x12B, Sonu_Mad,3,6,3,4)
+
+
+
 
 
 
