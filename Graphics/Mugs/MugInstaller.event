@@ -241,9 +241,9 @@ Mae_Mad_NoArmor:
 #incext PortraitFormatter "Playables/Alts/7MaeMadNoArmor.png"
 setMugEntry(0x11F, Mae_Mad_NoArmor,3,5,3,3)
 
-//Ostrava_Sad:
-//#incext PortraitFormatter "Playables/Alts/8OstravaSad.png"
-//setMugEntry(0x120, Ostrava_Sad,2,5,2,3)
+Ostrava_Sad:
+#incext PortraitFormatter "Playables/Alts/8OstravaSad.png"
+setMugEntry(0x120, Ostrava_Sad,2,5,2,3)
 
 //Ostrava_Mad:
 //#incext PortraitFormatter "Playables/Alts/8OstravaMad.png"
@@ -272,6 +272,7 @@ setMugEntry(0x11F, Mae_Mad_NoArmor,3,5,3,3)
 //Rose_Mad:
 //#incext PortraitFormatter "Playables/Alts/11RoseMad.png"
 //setMugEntry(0x127, Rose_Mad,3,5,3,3)
+
 
 Zanos_Sad:
 #incext PortraitFormatter "Playables/Alts/12ZanosSad.png"
@@ -336,8 +337,6 @@ setMugEntry(0x136, Tarte_Mad_Flip,3,6,3,4)
 Tarte_Mad_Flip_Alt:
 #incext PortraitFormatter "Bosses/Alts/1Tarte1MadFlip.png"
 setMugEntry(0x137, Tarte_Mad_Flip_Alt,3,6,3,4)
-
-
 
 
 //Class Cards

@@ -19,17 +19,3 @@ PUSH
     POIN TextTable
 
 POP
-
-#define PortraitTable NewPortraitTable
-#define MaxPortraitEntries 0x1ff
-
-ALIGN 4
-NewPortraitTable:
-	#incbin "NewPortraitTable.bin"
-	ORG NewPortraitTable + (MaxPortraitEntries * 28)
-
-PUSH
-	ORG $5524
-	POIN NewPortraitTable
-
-POP

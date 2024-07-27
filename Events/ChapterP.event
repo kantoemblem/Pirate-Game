@@ -36,8 +36,6 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Vendor(ShopItems,15,1)
-Armory(ArmoryItems,12,1)
 Village(0x7,House1,12,13)
 Village(0x8,House2,16,16)
 Stairs(0,1,8,4,10)
@@ -243,34 +241,5 @@ SVAL 0x1 0xC0D
 CHAI [16,17]
 EVBIT_T 0x7
 ENDA
-
-
-
-ShopItems:
-SHLI Fire 0xB6 Lightning Shine Nosferatu Luna Heal Mend Physic Restore Silence Berserk Barrier Vulnerary 0x6D 0xBE 0xBF 0xC0 0xC1 0xC2
-ALIGN 4
-
-ArmoryItems:
-BYTE SteelSword 0
-BYTE SilverSword 0
-BYTE Shamshir 0
-BYTE BraveSword 0
-BYTE Rapier 0
-BYTE SteelLance 0
-BYTE SilverLance 0
-BYTE KillerLance 0
-BYTE Javelin 0
-BYTE SteelAxe 0
-BYTE DevilAxe 0
-BYTE BattleAxe 0
-BYTE HandAxe 0
-BYTE SilverBow 0
-BYTE BraveBow 0
-BYTE Longbow 0
-BYTE SkillScroll 166
-BYTE SkillScroll 214
-BYTE SkillScroll 20
-BYTE SkillScroll 178
-ALIGN 4
 
 MESSAGE Events end at offset CURRENTOFFSET

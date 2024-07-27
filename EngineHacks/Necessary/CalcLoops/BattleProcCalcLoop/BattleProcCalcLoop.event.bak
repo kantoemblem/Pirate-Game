@@ -104,7 +104,7 @@ BarricadeIDLink:
 BYTE BarricadeID
 BarricadePlusIDLink:
 BYTE BarricadePlusID
-MasteryIDLink
+MasteryIDLink:
 BYTE MasteryID
 
 ALIGN 4

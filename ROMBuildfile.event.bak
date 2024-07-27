@@ -30,8 +30,9 @@ PROTECT 0xC00000 //start of anim table?
     #include "Maps/MasterMapInstaller.event"
 
 	//Events
-	#include "Events/ChapterEventInstaller.event"
 	#include "Events/SnekREDAs.event"
+	#include "Events/EscapePoints.event"
+	#include "Events/ChapterEventInstaller.event"
 	
 	//Musicz
 	#include "Music/MusicInstaller.event"

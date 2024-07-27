@@ -138,6 +138,7 @@ UNIT
 
 BeginningScene:
 ENUT 0xB0 //Casual Mode Flag
+ENUT 0xB1 //1RN Flag
 ENUT 0xEF //Fixed Growths Flag 
 LOMA 0x38
 COUNTER_SET 0x0 0x0

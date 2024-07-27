@@ -390,6 +390,7 @@
 //Powerstaff: Get another action after using a staff.
 //By Sme
 #define PowerstaffID 118
+#define PowerStaffID PowerstaffID
 
 //Re-Move: Luck% chance to get another action at end of turn.
 //By Sme
@@ -1290,8 +1291,10 @@
 #define InspiritID 4
 
 //Mutual Trust
-#define ZanosSkillID 154
+#define ZanosSkillID 255
 
+//Chaotic Fury
+#define ChaoticFuryID 154
 
 //Display-Only Skills
 

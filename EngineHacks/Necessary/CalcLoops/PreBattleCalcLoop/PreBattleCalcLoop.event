@@ -39,6 +39,7 @@ POIN ElbowRoom NaturalCover Gamble FieryBlood LifeAndDeath WindDisciple Perfecti
 POIN Daunt BloodTide WhitePool NightTide Insight Prescience Vigilance DefiantAvo DefiantCrit TowerShield ShortShield IndoorFighter OutdoorFighter Deadeye Fortune ChaosStyle StunningSmile HeavyBlade
 POIN BlueFlame BlueFlameAura DoubleLion Cultured Thighdeology Thotslayer KeepUp Armorboost Horseguard Skyguard ForeignPrincess ChargePlus
 POIN Frenzy // This was moved here because Str/Mag Split conflict, and... I'm not sure why it wouldn't be here in the first place.
+POIN ChaoticFury
 POIN UpWithArch
 POIN AxefaithHit
 POIN StancesASM

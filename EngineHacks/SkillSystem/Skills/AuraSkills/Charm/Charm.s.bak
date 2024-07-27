@@ -15,7 +15,7 @@ mov lr, r0
 mov r0, r4 @attacker
 ldr r1, CharmID
 mov r2, #0 @can_trade
-mov r3, #2 @range
+mov r3, #1 @range
 .short 0xf800
 cmp r0, #0
 beq CheckSkillEnemy
@@ -27,7 +27,7 @@ mov lr, r0
 mov r0, r4 @attacker
 ldr r1, CharmID
 mov r2, #3 @are enemies
-mov r3, #2 @range
+mov r3, #1 @range
 .short 0xf800
 cmp r0, #0
 beq Done
@@ -37,13 +37,13 @@ PlayerEffect:
 mov r0, r4
 add     r0,#0x5A    @Move to the attacker's damage.
 ldrh    r3,[r0]     @Load the attackers damage into r3.
-add     r3,#2    @subtracts 2 damage.
+add     r3,#3    @adds 3 damage.
 strh    r3,[r0]     @Store dmg.
 
 mov r0, r4
 add     r0,#0x60    @Move to the attacker's hit
 ldrh    r3,[r0]     @Load the attackers damage into r3.
-add     r3,#5    @adds 5 hit.
+add     r3,#15    @adds 15 hit.
 strh    r3,[r0]     @Store hit.
 b Done
 
@@ -51,13 +51,13 @@ EnemyEffect:
 mov r0, r4
 add     r0,#0x5A    @Move to the attacker's damage.
 ldrh    r3,[r0]     @Load the attackers damage into r3.
-sub     r3,#2    @subtracts 2 damage.
+sub     r3,#3    @subtracts 3 damage.
 strh    r3,[r0]     @Store dmg.
 
 mov r0, r4
-add     r0,#0x62    @Move to the attacker's avoid
+add     r0,#0x60    @Move to the attacker's Hit
 ldrh    r3,[r0]     @Load the attackers damage into r3.
-sub     r3,#5    @subtracts 5 avo.
+sub     r3,#15    @subtracts 15 Hit.
 strh    r3,[r0]     @Store hit.
 
 Done:

@@ -7,7 +7,7 @@ ALIGN 4
 
 LivSkills:
 BYTE 5 CantoID
-BYTE 10 DazzleID 117
+BYTE 10 PowerStaffID
 BYTE 00 00
 ALIGN 4
 
@@ -31,7 +31,7 @@ ALIGN 4
 
 HexSkills:
 BYTE 25 TrampleID
-BYTE 30 SturdyStanceID
+BYTE 30 InfiltratorID
 BYTE 00 00
 ALIGN 4
 
@@ -43,11 +43,11 @@ ALIGN 4
 
 MaeSkills:
 BYTE 25 RouseStrID
-BYTE 30 Galeforce
+BYTE 30 DoubleLionID
 BYTE 00 00
 ALIGN 4
 
-OstravaSkills:
+OstravaSkills:              //This is gross and bad fix it
 BYTE 5 SteadyStanceID
 BYTE 10 CamaraderieID
 BYTE 00 00
@@ -79,9 +79,17 @@ ALIGN 4
 
 SonuSkills:
 BYTE 5 AcrobatID
-BYTE 10 StealPlusID
+BYTE 10 DazzleID
 BYTE 00 00
 ALIGN 4
+
+TiaSkills:
+BYTE 5 GaleforceID
+BYTE 10 SwarpID
+BYTE 00 00
+ALIGN 4
+
+
 
 //Stuff that was here when I started that I dont Want to touch
 ALIGN 4 

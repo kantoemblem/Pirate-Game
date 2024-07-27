@@ -400,6 +400,12 @@ SonuPersonal:
 POIN SkillTester
 WORD SonuPersonalID
 
+ALIGN 4
+Inspirit:
+#incbin "Inspirit/Inspirit.dmp"
+POIN SkillTester
+WORD InspiritID
+
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 
