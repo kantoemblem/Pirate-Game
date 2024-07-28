@@ -1,7 +1,7 @@
 ALIGN 4
 BenSkills:
 BYTE 5  StrongRiposteID
-BYTE 10 InfiltratorID
+BYTE 10 ChaoticFuryID
 BYTE 00 00
 ALIGN 4
 
@@ -78,7 +78,7 @@ BYTE 00 00
 ALIGN 4
 
 SonuSkills:
-BYTE 5 AcrobatID
+BYTE 5 CriticalForceID
 BYTE 10 DazzleID
 BYTE 00 00
 ALIGN 4
