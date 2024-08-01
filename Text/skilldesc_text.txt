@@ -1706,3 +1706,8 @@ Inspirit: Deal +5 Damage to bosses.[X]
 Mutual Trust: When healing an ally,[N]
 also heals self. Gains 20% of the ally's[N]
 recovered HP as def/res until next turn[X]
+
+## SD_ChaoticFury ^
+Chaotic Fury: Gain +1 crit per missing[N]
+HP. Additionally, on Crit, 50% of[N]
+unit's missing HP is added to damage.[X]

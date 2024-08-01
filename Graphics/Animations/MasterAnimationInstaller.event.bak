@@ -25,14 +25,14 @@
 	#include "0Commander/Unarmed/comm_un1 Installer.event" //03
 	}
 	{
-	#include "1Princess/Axe/lorf_ax1 Installer.event" //04
+	#include "1Priestess/Sword/prif_sw1 Installer.event" //04
 	}
 	{
-	#include "1Princess/Handaxe/lorf_hx1 Installer.event" //05
+	#include "1Priestess/Magic/prif_mg1 Installer.event" //05
 	}
-	{
-	#include "1Princess/Unarmed/lorf_un1 Installer.event" //06
-	}
+//	{
+//	#include "1Princess/Unarmed/lorf_un1 Installer.event" //06
+//	}
 	{
 	#include "2Acolyte/acof_mg1 Installer.event" //07
 	}
@@ -151,6 +151,10 @@
 	{
 	#include "13PaladinH/Unarmed/bldf_un1 Installer.event" //43
 	}
+	{
+	#include "13PaladinH/Lance/Lance Installer.event" //44
+	}
+	
 	
 	{
 	#include "14Knight/Lance/armm_sp1 Installer.event" //40
@@ -267,7 +271,10 @@
 	#include "27ThiefM/Sword/thim_sw1 Installer.event" //89
 	}
 	{
-	#include "27ThiefF/Sword/thif_sw1 Installer.event" //8A
+	#include "Sonu/Lance/Lance Installer.event" //8A
+	}
+	{
+	#include "Sonu/Unarmed/Unarmed Installer.event" //92
 	}
 	{
 	#include "31Lancer/Lance/Lance Installer.event" //98
@@ -284,3 +291,10 @@
 	{
 	#include "29PirateM/Unarmed/pirm_un1 Installer.event" //9C
 	}
+	{
+	#include "Tia/Sword/Sword Installer.event"
+	}
+	{
+	#include "Tia/Unarmed/Unarmed Installer.event"
+	}
+	

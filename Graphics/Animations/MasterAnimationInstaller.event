@@ -151,6 +151,10 @@
 	{
 	#include "13PaladinH/Unarmed/bldf_un1 Installer.event" //43
 	}
+	{
+	#include "13PaladinH/Lance/Lance Installer.event" //44
+	}
+	
 	
 	{
 	#include "14Knight/Lance/armm_sp1 Installer.event" //40
@@ -258,7 +262,7 @@
 	#include "25Cleric/Unarmed/clef_un1 Installer.event" //C8
 	}
 	{
-	#include "26Troubadour/Staff/Staff Installer.event" //86
+	#include "26Troubadour/Staff/Magic Installer.event" //86
 	}
 	{
 	#include "26Troubadour/Unarmed/Unarmed Installer.event" //85
@@ -267,7 +271,10 @@
 	#include "27ThiefM/Sword/thim_sw1 Installer.event" //89
 	}
 	{
-	#include "27ThiefF/Sword/thif_sw1 Installer.event" //8A
+	#include "Sonu/Lance/Lance Installer.event" //8A
+	}
+	{
+	#include "Sonu/Unarmed/Unarmed Installer.event" //92
 	}
 	{
 	#include "31Lancer/Lance/Lance Installer.event" //98
@@ -284,3 +291,10 @@
 	{
 	#include "29PirateM/Unarmed/pirm_un1 Installer.event" //9C
 	}
+	{
+	#include "Tia/Sword/Sword Installer.event"
+	}
+	{
+	#include "Tia/Unarmed/Unarmed Installer.event"
+	}
+	

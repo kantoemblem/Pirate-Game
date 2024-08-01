@@ -21,7 +21,7 @@ bne DarkCheck
 
 mov r1, #0x5E @ Attack Speed
 ldrh r0, [r4, r1]
-add r0, #5
+add r0, #3
 strh r0, [r4,r1]
 
 mov r1, #0x62 @ Avoid
@@ -45,7 +45,7 @@ bne End
 
 mov r1, #0x5C @ Defense
 ldrh r0, [r4, r1]
-add r0, #5
+add r0, #3
 strh r0, [r4,r1]
 
 mov r1, #0x60 @ Hit
@@ -55,7 +55,7 @@ strh r0, [r4,r1]
 
 mov r1, #0x68 @ Crit Avoid
 ldrh r0, [r4, r1]
-add r0, #10
+add r0, #15
 strh r0, [r4,r1]
 
 End:

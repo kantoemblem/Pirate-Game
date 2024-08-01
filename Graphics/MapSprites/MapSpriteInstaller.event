@@ -37,9 +37,9 @@ GeneralMove:
 
 
 ThiefFStand:
-#incext Png2Dmp "ThiefF/ThiefStand.png" --lz77
+#incext Png2Dmp "_Sonu/Stand.png" --lz77
 ThiefFMove:
-#incext Png2Dmp "ThiefF/ThiefMove.png" --lz77
+#incext Png2Dmp "_Sonu/Move.png" --lz77
 MercMStand:
 #incext Png2Dmp "MercenaryM/MercStand.png" --lz77
 MercMMove:
@@ -154,6 +154,10 @@ LancerStand:
 #incext Png2Dmp "Lancer/Stand.png" --lz77
 LancerMove:
 #incext Png2Dmp "Lancer/Move.png" --lz77
+TiaStand:
+#incext Png2Dmp "_Tia/Stand.png" --lz77
+TiaMove:
+#incext Png2Dmp "_Tia/Move.png" --lz77
 
 
 

@@ -36,8 +36,6 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Vendor(ShopItems,15,1)
-Armory(ArmoryItems,12,1)
 Village(0x7,House1,12,13)
 Village(0x8,House2,16,16)
 Stairs(0,1,8,4,10)
@@ -80,7 +78,7 @@ UNIT HexChamp 0x8 0x00 Level(1, Ally, 0) [25,14] 0x00 0x00 0x0 0x0 [0x21, 0x3, 0
 UNIT Mae 0x1C 0x00 Level(1, Ally, 0) [16,9] 0x00 0x00 0x0 0x0 [SilverBow, 0x2D 0x6C] NoAI
 UNIT Rose 0x48 0x00 Level(1, Ally, 0) [33,9] 0x00 0x00 0x0 0x0 [0xBD, Javelin, 0x6C] NoAI
 UNIT Zanos 0x4B 0x00 Level(1, Ally, 0) [30,4] 0x00 0x00 0x0 0x0 [0x4C, 0x52, Shine, 0x6C] NoAI
-UNIT Sonu 0x12 0x00 Level(1, Ally, 0) [7,9] 0x00 0x00 0x0 0x0 [IronSword, 0x10, 0x6C] NoAI
+UNIT Sonu 0x12 0x00 Level(1, Ally, 0) [7,9] 0x00 0x00 0x0 0x0 [IronLance, Javelin, 0x6C] NoAI
 UNIT Aphi Acolyte 0x00 Level(1, Ally, 0) [7,6] 0x00 0x00 0x0 0x0 [0x81, 0x82, 0x6C] NoAI
 UNIT Ted 0x1F 0x00 Level(1, Ally, 0) [13,14] 0x00 0x00 0x0 0x0 [0xC4, 0x28, 0x6C] NoAI
 UNIT Nate 0x13 0x00 Level(1, Ally, 0) [12,9] 0x00 0x00 0x0 0x0 [0xD, 0x1, 0x6C] NoAI
@@ -139,18 +137,33 @@ UNIT
 BeginningScene:
 ENUT 0xB0 //Casual Mode Flag
 ENUT 0xB1 //1RN Flag
-ENUT 0xEF //Fixed Growths Flag 
+ENUT 0xEF //Fixed Growths Flag
 LOMA 0x38
+CAM1 [23,1]
+SetBackground(0x7)
+MUSC 0x3
+SVAL 0xB 0xFFFFFFFF
+TUTORIALTEXTBOXSTART
+ShowText(ChOpeningPlaceHolder)
+ClearBackgroundSmooth
+CUMO [20,1]
+STAL 60
+CURE
+SetBackground(0x9)
+ShowText(PlaceHolderText)
+FADI 16
+CLEAN
 COUNTER_SET 0x0 0x0
 EnableFreeMovement
 LOAD1 0x1 FreeMoveFriends
 ENUN
-CAM1 0x1
+CAM1 [22,1]
+FADU 16
+STAL 60
 CUMO 0x1
 STAL 60
 CURE
 Text(FreeMoveStart)
-GiveMoney(10000)
 EVBIT_T 0x7     
 ENDA
 
@@ -243,34 +256,5 @@ SVAL 0x1 0xC0D
 CHAI [16,17]
 EVBIT_T 0x7
 ENDA
-
-
-
-ShopItems:
-SHLI Fire 0xB6 Lightning Shine Nosferatu Luna Heal Mend Physic Restore Silence Berserk Barrier Vulnerary 0x6D 0xBE 0xBF 0xC0 0xC1 0xC2
-ALIGN 4
-
-ArmoryItems:
-BYTE SteelSword 0
-BYTE SilverSword 0
-BYTE Shamshir 0
-BYTE BraveSword 0
-BYTE Rapier 0
-BYTE SteelLance 0
-BYTE SilverLance 0
-BYTE KillerLance 0
-BYTE Javelin 0
-BYTE SteelAxe 0
-BYTE DevilAxe 0
-BYTE BattleAxe 0
-BYTE HandAxe 0
-BYTE SilverBow 0
-BYTE BraveBow 0
-BYTE Longbow 0
-BYTE SkillScroll 166
-BYTE SkillScroll 214
-BYTE SkillScroll 20
-BYTE SkillScroll 178
-ALIGN 4
 
 MESSAGE Events end at offset CURRENTOFFSET

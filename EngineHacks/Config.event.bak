@@ -113,7 +113,7 @@
 // If uncomented, ModularEXP will be implemented.
 // Go to "ModularEXP/ModularEXP.event" and "Tables/FE8 Nightmare modules/Misc/Modular EXP Class Table.csv" to edit experience gains.
 // This patch normally conflicts with Paragon, but installing here remedies this.
-#define MODULAR_EXP
+//#define MODULAR_EXP
 
 // If uncommented, PortraitSelectionASM will be implemented.
 // Go to "PortraitSelectionASM/PortraitSelectionASM.event" to configure your modular portrait options.
@@ -122,7 +122,7 @@
 
 // If uncommented, StairsASM will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
-// #define STAIRS_ASM
+ #define STAIRS_ASM
 
 // If uncommented, Raid will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
@@ -243,7 +243,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // #define ENABLE_GALEFORCE_AUTOSELECT
 
 // if uncommented lethality will work like it originally did in gba
-// #define ENABLE_GBA_LETHALITY
+ #define ENABLE_GBA_LETHALITY
 
 // if set to false, only the skill will work, if set to true both the skill and the ability will work
 #define ENABLE_LEGACY_CANTO True

@@ -1,3 +1,10 @@
+## PlaceHolderText
+[OpenMidRight][LoadBen][BenBoop]Placeholder.[A][X]
+
+## ChOpeningPlaceHolder
+PlaceholderText[A][X]
+
+
 ## Ch1Opening
 _[X]
 
@@ -256,7 +263,7 @@ you on the job is all.[A]
 [OpenMidRight][LoadBenMad][BenBoop][3L]Oho![....] Is that so?[....] That's tough[N]
 talk for a twerp like you![....][N]
 [HalfCloseEyes]Think you can back it up?[A]
-[OpenMidLeft][2L][OpenEyes]I'll show you I'm[N]
+[OpenMidLeft][2L][OpenEyes][LoadNateMad][NateBoop]I'll show you I'm[N]
 more than a twerp![A]
 [OpenMidRight][MoveMidRight][1L]Bring it, munchkin![A]
 [ClearFace][OpenMidLeft][ClearFace][NateBoop][OpenMidRight][BenBoop][OpenMidLeft]Yah![PlaySound][0x82][0x8D][0x80][0x80][.....][.....][CSS][OpenMidRight]Hyah![PlaySound][0x84][0x8D][0x80][0x80][.....][.....][CSS][OpenMidLeft]Dang...![....] Ninth Form:[PlaySound][0x80][0x8D][0x82][0x80] Conqueror![PlaySound][0x88][0x8D][0x80][0x80][.....][.....][CSS][OpenMidRight]Tch![.....][.....][CSS][PlaySound][0x86][0x8F][0x80][0x80]Bringer of Chaos![....] Thundering Cross Slash![PlaySound][0x88][0x8D][0x80][0x80][.....][.....][PlaySound][0x85][0x8D][0x80][0x80][.....][.....][CSS]

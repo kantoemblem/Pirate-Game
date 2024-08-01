@@ -53,3 +53,7 @@ bool FMU_OnButton_ChangeUnit(FMUProc* proc){
 	gActiveUnit = UnitNext;
 	return 1;
 }
+
+bool FMU_OnButton_Status(FMUProc* proc){
+    return 1;
+}

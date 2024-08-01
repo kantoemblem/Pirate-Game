@@ -7,23 +7,6 @@ ORG 0x005D20
     BYTE 5
 POP
 
-/*
-#define PortraitTable NewPortraitTable
-#define MaxPortraitEntries 0x1ff
-
-ALIGN 4
-NewPortraitTable:
-	#incbin "NewPortraitTable.bin"
-	ORG NewPortraitTable + (MaxPortraitEntries * 28)
-
-PUSH
-	ORG $5524
-	POIN NewPortraitTable
-
-POP
-
-*/
-
 //Mugs Go Here
 //Playables
 Ben_Mug:
@@ -52,7 +35,7 @@ setMugEntry(0x7, Hex_Mug,3,5,3,3)
 
 Nate_Mug:
 #incext PortraitFormatter "Playables/6Nate.png"
-setMugEntry(0x8, Nate_Mug,3,6,3,4)
+setMugEntry(0x8, Nate_Mug,2,5,3,3)
 
 Mae_Mug:
 #incext PortraitFormatter "Playables/7Mae.png"
@@ -199,32 +182,32 @@ Ted_Mad_Flip:
 setMugEntry(0x110, Ted_Mad_Flip,3,4,3,2)
 
 Hex_Flip:
-#incext PortraitFormatter "Playables/Alts/5HexFlipped.png"
+#incext PortraitFormatter "Playables/Alts/5HexFlip.png"
 setMugEntry(0x111, Hex_Flip,3,5,3,3)
 
-//Hex_Sad:
-//#incext PortraitFormatter "Playables/Alts/5HexSad.png"
-//setMugEntry(0x112, Hex_Sad,3,5,3,3)
+Hex_Sad:
+#incext PortraitFormatter "Playables/Alts/5HexSad.png"
+setMugEntry(0x112, Hex_Sad,3,5,3,3)
 
 Hex_Sad_Flip:
-#incext PortraitFormatter "Playables/Alts/5HexFlippedSad.png"
+#incext PortraitFormatter "Playables/Alts/5HexSadFlip.png"
 setMugEntry(0x113, Hex_Sad_Flip,3,5,3,3)
 
-//Hex_Mad:
-//#incext PortraitFormatter "Playables/Alts/5HexMad.png"
-//setMugEntry(0x114, Hex_Mad,3,5,3,3)
+Hex_Mad:
+#incext PortraitFormatter "Playables/Alts/5HexMad.png"
+setMugEntry(0x114, Hex_Mad,3,5,3,3)
 
 Hex_Mad_Flip:
-#incext PortraitFormatter "Playables/Alts/5HexFlippedMad.png"
+#incext PortraitFormatter "Playables/Alts/5HexMadFlip.png"
 setMugEntry(0x115, Hex_Mad_Flip,3,5,3,3)
 
-//Nate_Sad:
-//#incext PortraitFormatter "Playables/Alts/6NateSad.png"
-//setMugEntry(0x116, Nate_Sad,3,6,3,4)
+Nate_Sad:
+#incext PortraitFormatter "Playables/Alts/6NateSad.png"
+setMugEntry(0x116, Nate_Sad,3,6,3,4)
 
-//Nate_Mad:
-//#incext PortraitFormatter "Playables/Alts/6NateMad.png"
-//setMugEntry(0x117, Nate_Mad,3,6,3,4)
+Nate_Mad:
+#incext PortraitFormatter "Playables/Alts/6NateMad.png"
+setMugEntry(0x117, Nate_Mad,3,6,3,4)
 
 Mae_Flip:
 #incext PortraitFormatter "Playables/Alts/7MaeFlipped.png"
@@ -262,9 +245,9 @@ Ostrava_Sad:
 #incext PortraitFormatter "Playables/Alts/8OstravaSad.png"
 setMugEntry(0x120, Ostrava_Sad,2,5,2,3)
 
-//Ostrava_Mad:
-//#incext PortraitFormatter "Playables/Alts/8OstravaMad.png"
-//setMugEntry(0x121, Ostrava_Mad,2,5,2,3)
+Ostrava_Mad:
+#incext PortraitFormatter "Playables/Alts/8OstravaMad.png"
+setMugEntry(0x121, Ostrava_Mad,2,5,2,3)
 
 //Nana_Sad:
 //#incext PortraitFormatter "Playables/Alts/9NanaSad.png"
@@ -290,7 +273,7 @@ setMugEntry(0x120, Ostrava_Sad,2,5,2,3)
 //#incext PortraitFormatter "Playables/Alts/11RoseMad.png"
 //setMugEntry(0x127, Rose_Mad,3,5,3,3)
 
-/*
+
 Zanos_Sad:
 #incext PortraitFormatter "Playables/Alts/12ZanosSad.png"
 setMugEntry(0x128, Zanos_Sad,3,5,3,3)
@@ -355,8 +338,6 @@ Tarte_Mad_Flip_Alt:
 #incext PortraitFormatter "Bosses/Alts/1Tarte1MadFlip.png"
 setMugEntry(0x137, Tarte_Mad_Flip_Alt,3,6,3,4)
 
-
-*/
 
 //Class Cards
 Knight_Card:

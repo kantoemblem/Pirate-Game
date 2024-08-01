@@ -205,6 +205,7 @@ add r2, r1 @ add final damage
 strh r2, [r7, #4]
 
 BenSkillTwo:
+mov r11, r11
 mov r0,r4 @ attacker
 ldr r1, =ChaoticFuryIDLink
 ldrb r1, [ r1 ]
@@ -216,6 +217,7 @@ ldrb  r0,[r4,#0x12] @attacker max hp
 ldrb  r1,[r4,#0x13] @attacker current hp
 sub r2, r0, r1
 lsr r2, r2, #1
+mov r1, #4
 ldrsh r0, [r7, r1]
 add r0,r2
 strh r0, [r7, #4]

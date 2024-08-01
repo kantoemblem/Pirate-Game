@@ -180,7 +180,8 @@ staves in addition to lances.[X]
 
 ## TroubDesc
 Mounted healers who possess[NL]
-high mobility, but cannot fight.[X]
+high mobility, and defend themselves[N]
+with light magic.[X]
 
 ## ValkDesc
 A battle maiden who rides a horse[NL]
@@ -195,6 +196,19 @@ Those who follow the path[N]
 of the spear.[X]
 
 ## SummonerDesc
-Master sorcerors capable of[N]
+Master sorcerers capable of[N]
 summoning phantoms to do[N]
 their bidding.[X]
+
+## WushuName
+Wushu[X]
+
+## WushuDesc ^
+Lightning-fast, flexible fighters[N]
+capable of piercing foe's defenses.[X]
+
+## ThaumaturgeName ^
+Thaumaturge[X]
+
+## TricksterName
+Trickster[X]

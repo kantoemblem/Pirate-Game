@@ -49,7 +49,7 @@ Druid,0x81dd9e0,0x81de2c4
 Druid (F),0x81dd9e0,0x81de2c4
 Summoner,0x81de41c,0x81dec38
 Summoner (F),0x81de41c,0x81dec38
-Rogue,0x81ded90,0x81df548
+Rogue,TiaMove|IsPointer,0x81c3d7c
 Gorgon Egg,0x81df6a0,0x81dfacc
 Great Knight,GreatKnightMove|IsPointer,0x81c7428
 Great Knight (F),GreatKnightMove|IsPointer,0x81c7428

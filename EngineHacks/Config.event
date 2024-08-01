@@ -122,7 +122,7 @@
 
 // If uncommented, StairsASM will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
-// #define STAIRS_ASM
+ #define STAIRS_ASM
 
 // If uncommented, Raid will be implemented.
 // This patch adds an entry to the Unit Menu, so installing here is necessary.
@@ -243,7 +243,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 // #define ENABLE_GALEFORCE_AUTOSELECT
 
 // if uncommented lethality will work like it originally did in gba
-// #define ENABLE_GBA_LETHALITY
+ #define ENABLE_GBA_LETHALITY
 
 // if set to false, only the skill will work, if set to true both the skill and the ability will work
 #define ENABLE_LEGACY_CANTO True
@@ -283,7 +283,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define ALSO_USE_MOVEMENT_SKILL_CHECK True
 
 //If true, get 1/4 prices with both Bargain and Silver Card simultaneously.
-#define DOES_BARGAIN_STACK False
+#define DOES_BARGAIN_STACK True
 
 //If true, will use the vanilla check in addition to the skill check.
 #define ALSO_USE_VANILLA_DANCE_CHECK True
@@ -386,7 +386,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define PREVENT_WHEN_ABOVE_AVERAGE_BY_AMOUNT 5 
 
 //If true, passive growth boosters and metis tome will not affect growths in fixed growths mode.
-#define FIXED_GROWTHS_DONT_BOOST True
+#define FIXED_GROWTHS_DONT_BOOST False
 
 //If true, enemy/NPC autolevels will use fixed growths as well.
 #define ENEMY_NPC_FIXED_GROWTHS True
