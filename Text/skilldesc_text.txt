@@ -180,7 +180,7 @@ Tomefaire: +4 damage[N]
 when equipping a tome.[X]
 
 ## SD_CritUp
-Killer Instinct: +15 critical rate.[X]
+Killer Instinct: +20 critical rate.[X]
 
 ## SD_Slayer
 Slayer: Deal effective damage[N]
@@ -1672,7 +1672,7 @@ within two spaces based on equipped weapon.[N]
 Fire: Atk Thunder: Def Wind: Spd[X]
 
 ## SD_Zornhau
-Zornhau: +5 Dmg & +30 crit[N]
+Zornhau: +5 Dmg dealt/taken[N]
 when initiating battle.[X]
 
 ## SD_DraconicHex ^
@@ -1691,7 +1691,7 @@ gain +1 MOV and +4 to a random stat.[X]
 ## SD_RosePersonal ^
 Lone Wing: After initiating combat, if[N]
 there are no allies within 2 tiles, unit[N]
-can move up to X spaces after combat.[X]
+can move up to 5 spaces after combat.[X]
 
 ## SD_Mastery ^
 Mastery: On critical, based on weapon:[N]
@@ -1704,8 +1704,8 @@ Inspirit: Deal +5 Damage to bosses.[X]
 
 ## SD_MutualTrust ^
 Mutual Trust: When healing an ally,[N]
-also heals self. Gains 20% of the ally's[N]
-recovered HP as def/res until next turn[X]
+also heals self. Gains +4 def/res[N]
+until next turn[X]
 
 ## SD_ChaoticFury ^
 Chaotic Fury: Gain +1 crit per missing[N]
