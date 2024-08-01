@@ -16,7 +16,7 @@ include $(DEVKITARM)/base_tools
 # ==================
 
 # defining path of lyn
-LYN := $(DEVKITPRO)/lyn.exe -longcalls
+LYN := $(DEVKITARM)/lyn -longcalls
 
 # reference object
 LYNREF := _include/_Definitions.h.o

@@ -1,4 +1,6 @@
 #include "FreeMU.h"
+void MakeAdjacentTargetList(struct Unit* unit);
+extern void AddUnitToTargetListIfAllied(Unit* unit);
 static inline bool IsPosInvaild(s8 x, s8 y){
 	return( (x<0) & (x>gMapSize.x) & (y<0) & (y>gMapSize.y) );
 }
@@ -52,4 +54,26 @@ bool FMU_OnButton_ChangeUnit(FMUProc* proc){
 	proc->FMUnit = UnitNext;
 	gActiveUnit = UnitNext;
 	return 1;
+}
+
+bool FMU_OnButton_Status(FMUProc* proc){
+	MakeAdjacentTargetList(gActiveUnit);
+	int targetCount = GetTargetListSize();
+
+	//No clue what the name of the function is or what parameters it takes
+	StartStatScreen(GetUnit(GetTarget(0)), proc);
+    return 1;
+}
+
+void MakeAdjacentTargetList(struct Unit* unit) {
+    int x = unit->xPos;
+    int y = unit->yPos;
+
+    gUnitSubject = unit;
+
+    BmMapFill(gMapRange, 0);
+
+    ForEachAdjacentUnit(x, y, AddUnitToTargetListIfAllied);
+
+    return;
 }
