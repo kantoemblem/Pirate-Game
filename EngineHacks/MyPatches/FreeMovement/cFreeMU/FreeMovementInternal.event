@@ -7,6 +7,7 @@
 	#include "src/FreeMU_Event.lyn.event"
 	#include "src/FreeMU_ButtonPress.lyn.event"
 	#include "src/FreeMU_SaveData.lyn.event"
+	#include "src/FreeMU_Additions.lyn.event"
 	#include "asm/FreeMU.lyn.event"
 	#include "MU6Cfix/_MU6Cfix.event"
 

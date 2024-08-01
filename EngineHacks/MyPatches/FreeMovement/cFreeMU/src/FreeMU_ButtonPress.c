@@ -1,6 +1,10 @@
 #include "FreeMU.h"
+
 void MakeAdjacentTargetList(struct Unit* unit);
-extern void AddUnitToTargetListIfAllied(Unit* unit);
+void StartFreeMUStatScreen(Unit* unit, Proc* parent);
+extern void TryAddAlliedUnitToTargetList(Unit* unit);
+extern int AreAllegiancesAllied(int, int) __attribute__((long_call));
+
 static inline bool IsPosInvaild(s8 x, s8 y){
 	return( (x<0) & (x>gMapSize.x) & (y<0) & (y>gMapSize.y) );
 }
@@ -57,11 +61,20 @@ bool FMU_OnButton_ChangeUnit(FMUProc* proc){
 }
 
 bool FMU_OnButton_Status(FMUProc* proc){
+	Unit* unit;
+
 	MakeAdjacentTargetList(gActiveUnit);
 	int targetCount = GetTargetListSize();
 
+	if (targetCount == 0) {
+		unit = gActiveUnit;
+	}
+	else {
+		unit = GetUnit(GetTarget(0)->unitIndex);
+	}
+
 	//No clue what the name of the function is or what parameters it takes
-	StartStatScreen(GetUnit(GetTarget(0)->unitIndex), proc);
+	StartFreeMUStatScreen(unit, proc);
     return 1;
 }
 
@@ -73,7 +86,15 @@ void MakeAdjacentTargetList(struct Unit* unit) {
 
     BmMapFill(gMapRange, 0);
 
-    ForEachAdjacentUnit(x, y, AddUnitToTargetListIfAllied);
+    ForEachAdjacentUnit(x, y, TryAddAlliedUnitToTargetList);
+
+    return;
+}
+
+void TryAddAlliedUnitToTargetList(struct Unit* unit) {
+    if (AreAllegiancesAllied(gUnitSubject->index, unit->index)) {
+    	AddTarget(unit->xPos, unit->yPos, unit->index, 1);
+    }
 
     return;
 }
