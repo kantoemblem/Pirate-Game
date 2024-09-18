@@ -43,12 +43,16 @@
 #define Rose 0xC
 #define Zanos 0xD
 #define Sonu 0xE
+#define Tia 0xF
+#define Tarte 0x6c
+#define TarteF 0x40
 
 #define Commander 0x1
 #define Priestess 0x2
 #define Acolyte 0x3
 #define Tactician 0x4
 #define Supplier 0x10
+#define Lancer Soldier
 
 // Attribute for defining items with passive stat bonuses
 #define PASSIVE_ITEM_BOOSTS_ATTR 0x00800000

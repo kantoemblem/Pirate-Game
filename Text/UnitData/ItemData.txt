@@ -21,6 +21,23 @@ A commander's blade. Eff. [armor][horse][X]
 Wing Spear[X]
 
 
+## ChuangName
+Chuang[X]
+
+## HweiName
+Hwei[X]
+
+## ChuangDesc ^
+A spell made by Aphi. Heals allies after combat.[X]
+
+## HweiDesc ^
+A spell made by Aphi. Damages foes after combat.[X]
+
+## LadybladeName
+Ladyblade[X]
+
+## LadybladeDesc ^
+Tia's blade. Adds 3+(Pow/2) to Hit and Crit.[X]
 
 ## MerchantLanceName ^
 Peddler's Pike[X]

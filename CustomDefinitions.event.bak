@@ -43,12 +43,14 @@
 #define Rose 0xC
 #define Zanos 0xD
 #define Sonu 0xE
+#define Tia 0xF
 
 #define Commander 0x1
 #define Priestess 0x2
 #define Acolyte 0x3
 #define Tactician 0x4
 #define Supplier 0x10
+#define Lancer Soldier
 
 // Attribute for defining items with passive stat bonuses
 #define PASSIVE_ITEM_BOOSTS_ATTR 0x00800000
@@ -107,3 +109,14 @@
 #define DarkAnim(Animation) "BYTE Dark 0x01 ; SHORT Animation"
 #define UnarmedAnim(Animation) "BYTE Item 0x01 ; SHORT Animation"
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
+
+//Event Definitions
+#define GiveGold(money) "CALL $591F40; SVAL 0x3 money; GIVEITEMTOMAIN 0"
+//Move unit at specified coordinate
+//Credit Pikmin1211
+#define MoveByCoords(speed, srcX, srcY, destX, destY) "SVAL sB srcX|(srcY<<16); MOVE speed UnitAtCoordsSlotB [destX, destY]"
+//Generic always event macro
+#define AlwaysEvent(completionFlag, eventOffset, triggerFlag) "AFEV completionFlag eventOffset triggerFlag"
+#define ClearAll "CLEA 0x0; CLEE 0x0; CLEN 0x0" 
+#define HighlightUnit(unitID,frames) "CUMO unitID; STAL frames; CURE"
+#define HighlightLocation

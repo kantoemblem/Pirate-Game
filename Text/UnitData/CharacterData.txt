@@ -40,6 +40,9 @@ Zanos[X]
 ## SonuName
 Sonu[X]
 
+## TiaName
+Tia[X]
+
 
 ## BenDesc
 A bombastic swordsman who goes[N]
@@ -101,3 +104,7 @@ aspire to better themselves.[X]
 ## SonuDesc
 A cheerful adventurer who leaves[N]
 naught but smiles in her wake.[X]
+
+## TiaDesc
+A priestess and vassal to the empire.[N]
+She's friendly with a flirtatious streak.[X]

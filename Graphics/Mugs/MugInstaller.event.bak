@@ -19,7 +19,7 @@ setMugEntry(0x3, Livvy_Mug,5,6,5,4)
 
 Aphi_Mug:
 #incext PortraitFormatter "Playables/2Aphi.png"
-setMugEntry(0x4, Aphi_Mug,3,5,3,3)
+setMugEntry(0x4, Aphi_Mug,2,5,3,3)
 
 Zo_Mug:
 #incext PortraitFormatter "Playables/3Zo.png"
@@ -147,11 +147,11 @@ setMugEntry(0x107, Livvy_Mad,5,6,5,4)
 
 //Aphi_Sad:
 //#incext PortraitFormatter "Playables/Alts/2AphiSad.png"
-//setMugEntry(0x108, Aphi_Sad,4,5,4,3)
+//setMugEntry(0x108, Aphi_Sad,2,5,3,3)
 
 //Aphi_Mad:
 //#incext PortraitFormatter "Playables/Alts/2AphiMad.png"
-//setMugEntry(0x109, Aphi_Mad,4,5,4,3)
+//setMugEntry(0x109, Aphi_Mad,2,5,3,3)
 
 Zo_Sad:
 #incext PortraitFormatter "Playables/Alts/3ZoSad.png"
@@ -203,11 +203,11 @@ setMugEntry(0x115, Hex_Mad_Flip,3,5,3,3)
 
 Nate_Sad:
 #incext PortraitFormatter "Playables/Alts/6NateSad.png"
-setMugEntry(0x116, Nate_Sad,3,6,3,4)
+setMugEntry(0x116, Nate_Sad,2,5,3,3)
 
 Nate_Mad:
 #incext PortraitFormatter "Playables/Alts/6NateMad.png"
-setMugEntry(0x117, Nate_Mad,3,6,3,4)
+setMugEntry(0x117, Nate_Mad,2,5,3,3)
 
 Mae_Flip:
 #incext PortraitFormatter "Playables/Alts/7MaeFlipped.png"

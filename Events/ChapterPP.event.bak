@@ -138,6 +138,7 @@ AphiConvo:
 	ENUF 0x27 //Flag Off
     TEXTSHOW(AphiTalk) //Show Conversation
 	TEXTEND
+	EVBIT_F 0x2
 	CHECK_EVENTID 0x1B //Check if Flag 1B is ON
 	SVAL 0x7 0x1
     BEQ 0x1 0xC 0x7 //If it is, skip to the end, if its not, proceed.
@@ -165,6 +166,7 @@ ZoConvo:
 	ENUF 0x26 //Flag Off
     TEXTSHOW(ZoTalk) //Show Conversation
 	TEXTEND
+	EVBIT_F 0x2
 	CHECK_EVENTID 0x1B //Check if Flag 1B is ON
 	SVAL 0x7 0x1
     BEQ 0x1 0xC 0x7 //If it is, skip to the end, if its not, proceed.

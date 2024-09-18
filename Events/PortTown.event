@@ -3,9 +3,9 @@
 
 #include EAstdlib.event
 
-EventPointerTable(0xC5,ChapterPP)
+EventPointerTable(0xC5,PortTown)
 
-ChapterPP:
+PortTown:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
 POIN LocationBasedEvents

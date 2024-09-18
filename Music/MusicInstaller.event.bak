@@ -44,6 +44,11 @@ POP
 //}
 
 {
+SongTable(0x02,song02,0)
+#include "songs/Event/Specialz.event"
+}
+
+{
 SongTable(0x09,song09,1)
 #include "songs/Event/Duty.event"
 }
@@ -94,7 +99,10 @@ SongTable(0x34,song34,0)
 #include "songs/Event/AriseWarriors.event"
 }
 
-
+{
+SongTable(0x58,song58,0)
+#include "songs/Event/FrontierVillage.event"
+}
 
 
 

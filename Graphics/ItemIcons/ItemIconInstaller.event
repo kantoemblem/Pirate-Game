@@ -18,6 +18,7 @@ ItemIconSlot(0x10,"Sword/27RuneSword.png")
 ItemIconSlot(0x11,"Sword/15Lancereaver.png")
 ItemIconSlot(0xAA,"Sword/22WindSword.png")
 ItemIconSlot(0xB0,"Sword/Iustitae.png")
+ItemIconSlot(0x97,"Sword/Ladyblade.png")
 
 //Lances
 ItemIconSlot(0x13,"Lance/41IronLance.png")
@@ -76,7 +77,7 @@ ItemIconSlot(0x3E,"Light/141Shine.png")
 ItemIconSlot(0x3F,"Light/142Divine.png")
 ItemIconSlot(0x40,"Light/144Purge.png")
 ItemIconSlot(0x41,"Light/143Aura.png")
-//ItemIconSlot(0x93,"Light/Aphi.png")
+ItemIconSlot(0x93,"Light/Chuang.png")
 
 //Dark
 ItemIconSlot(0x43,"Dark/149Flux.png")
@@ -84,7 +85,7 @@ ItemIconSlot(0x44,"Dark/151Luna.png")
 ItemIconSlot(0x45,"Dark/150Nosferatu.png")
 ItemIconSlot(0x46,"Dark/154Eclipse.png")
 ItemIconSlot(0x47,"Dark/152Fenrir.png")
-//ItemIconSlot(0x94,"Dark/AphiDark.png")
+ItemIconSlot(0x94,"Dark/Hwei.png")
 
 //Staff
 ItemIconSlot(0x49,"Staff/160Heal.png")

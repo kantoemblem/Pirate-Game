@@ -44,6 +44,11 @@ POP
 //}
 
 {
+SongTable(0x01,song02,0)
+#include "songs/Event/Specialz.event"
+}
+
+{
 SongTable(0x09,song09,1)
 #include "songs/Event/Duty.event"
 }
