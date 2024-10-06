@@ -62,8 +62,9 @@ Luna: Negates enemy defenses.[N]
 (Skill % activation)[X]
 
 ## SD_Sol
-Sol: Restore damage dealt as HP.[N]
-(Skill % activation)[X]
+Sunny Disposition:[N]
+Unit heals 50% of damage dealt on[N]
+every hit, because he's so nice.[X]
 
 ## SD_Aether
 Aether: First strike absorbs HP,[N]
@@ -179,8 +180,10 @@ when equipping a bow.[X]
 Tomefaire: +4 damage[N]
 when equipping a tome.[X]
 
-## SD_CritUp
-Killer Instinct: +20 critical rate.[X]
+## SD_CritUp ^
+Black Flash: Nate gains +15 crit[N]
+at base. When landing a crit, gain[N]
++50 avo/+5 crit during next combat.[X]
 
 ## SD_Slayer
 Slayer: Deal effective damage[N]
@@ -1663,8 +1666,8 @@ by 1 per Speed greater than opponent.[X]
 
 ## SD_AphiSkill ^
 Harmony: Unit recieves bonuses based on weapon.[N]
-[light]: +5 AS, +15 Avo, +15 Crit.[N]
-[dark]: +5 Prt, +15 Hit, +15 Crit avo.[X]
+[light]: -3 Atk/Def, +3 AS, +15 Avo/Crit[N]
+[dark]: +3 Atk/Def, -3 AS, +15 Hit/DDG[X]
 
 ## SD_ChromaticTactics ^
 Chromatic Tactics: Boosts stats of allies[N]

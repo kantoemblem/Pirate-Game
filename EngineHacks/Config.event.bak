@@ -283,7 +283,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define ALSO_USE_MOVEMENT_SKILL_CHECK True
 
 //If true, get 1/4 prices with both Bargain and Silver Card simultaneously.
-#define DOES_BARGAIN_STACK False
+#define DOES_BARGAIN_STACK True
 
 //If true, will use the vanilla check in addition to the skill check.
 #define ALSO_USE_VANILLA_DANCE_CHECK True
@@ -386,7 +386,7 @@ MESSAGE Please see the README.md there or ask @Vesly for help.
 #define PREVENT_WHEN_ABOVE_AVERAGE_BY_AMOUNT 5 
 
 //If true, passive growth boosters and metis tome will not affect growths in fixed growths mode.
-#define FIXED_GROWTHS_DONT_BOOST True
+#define FIXED_GROWTHS_DONT_BOOST False
 
 //If true, enemy/NPC autolevels will use fixed growths as well.
 #define ENEMY_NPC_FIXED_GROWTHS True

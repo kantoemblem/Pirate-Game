@@ -6,7 +6,7 @@ ALIGN 4
 pMovModifiers: // Movement
 	POIN prAddUnitBaseMov prAddUnitMovBonus prGetItemMovBonus 
 	POIN prDebuffMov 
-	POIN prItemPassiveMov prRallyMov prSkillCelerity prSkillPoise prArmorMarchCheck
+	POIN prItemPassiveMov prRallyMov prSkillCelerity prSkillMenacing prSkillPoise prArmorMarchCheck
 	#ifdef STAIRS_ASM
 	POIN StairsMoveDebuff
 	#endif
@@ -30,6 +30,10 @@ prAddUnitMovBonus:
 prSkillCelerity:
 	rIfUnitHasSkill(CelerityID)
 		rAddConst(2)
+		
+prSkillMenacing:
+	rIfUnitHasSkill(NiceThighsID)
+		rConstant(1)
 		
 prSkillPoise:
 	rIfUnitHasSkill(PoiseID)

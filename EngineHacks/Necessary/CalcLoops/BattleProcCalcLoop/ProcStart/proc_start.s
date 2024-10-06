@@ -6,6 +6,10 @@
 .endm
 .equ proc_truehit, 0x802A558
 .equ d100Result, 0x802a52c
+.equ SetEventId, 0x8083D81
+.equ UnsetEventId, 0x8083D95
+.equ CheckEventId, 0x8083DA9
+.equ EventFlag, 0x28
 .global ProcLoop_Start
 .type ProcLoop_Start, %function
 ProcLoop_Start: @ r0 is attacker, r1 is defender, r2 is current buffer, r3 is battle data
@@ -171,7 +175,7 @@ ldrsh r1, [r7, r1]
 lsl r2, r1, #1
 cmp r0,#0
 bne StoreDamage
-add r2, r1 @damagex3
+@add r2, r1 @damagex3
 StoreDamage:
 strh r2, [r7, #4] @final damage
 
@@ -211,7 +215,7 @@ ldr r1, =ChaoticFuryIDLink
 ldrb r1, [ r1 ]
 blh SkillTester,r3
 cmp r0,#0 @ skill check
-beq SetCritFlag
+beq BlackFlash
 
 ldrb  r0,[r4,#0x12] @attacker max hp
 ldrb  r1,[r4,#0x13] @attacker current hp
@@ -222,6 +226,18 @@ ldrsh r0, [r7, r1]
 add r0,r2
 strh r0, [r7, #4]
 
+
+BlackFlash:
+mov r11, r11
+mov r0,r4 @ attacker
+ldr r1, =CritUpIDLink
+ldrb r1, [ r1 ]
+blh SkillTester,r3
+cmp r0,#0 @ skill check
+beq SetCritFlag
+
+mov r0, #EventFlag
+blh SetEventId
 
 
 SetCritFlag: @set crit flag

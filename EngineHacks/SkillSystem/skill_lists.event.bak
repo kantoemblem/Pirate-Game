@@ -1,7 +1,7 @@
 ALIGN 4
 BenSkills:
-BYTE 5  StrongRiposteID
-BYTE 10 InfiltratorID
+BYTE 5  InfiltratorID
+BYTE 10 ChaoticFuryID
 BYTE 00 00
 ALIGN 4
 
@@ -30,8 +30,8 @@ BYTE 00 00
 ALIGN 4
 
 HexSkills:
-BYTE 25 TrampleID
-BYTE 30 InfiltratorID
+BYTE 5 TrampleID
+BYTE 10 NullifyID
 BYTE 00 00
 ALIGN 4
 
@@ -42,8 +42,8 @@ BYTE 00 00
 ALIGN 4
 
 MaeSkills:
-BYTE 25 RouseStrID
-BYTE 30 DoubleLionID
+BYTE 5 RouseStrID
+BYTE 10 DoubleLionID
 BYTE 00 00
 ALIGN 4
 
@@ -78,7 +78,7 @@ BYTE 00 00
 ALIGN 4
 
 SonuSkills:
-BYTE 5 AcrobatID
+BYTE 5 CriticalForceID
 BYTE 10 DazzleID
 BYTE 00 00
 ALIGN 4
@@ -89,6 +89,10 @@ BYTE 10 SwarpID
 BYTE 00 00
 ALIGN 4
 
+Tarte2Skills:
+BYTE 21 NiceThighsID
+BYTE 00 00
+ALIGN 4
 
 
 //Stuff that was here when I started that I dont Want to touch

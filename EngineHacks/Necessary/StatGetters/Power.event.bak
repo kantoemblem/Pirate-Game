@@ -21,10 +21,6 @@ prAddEquipPower:
 prLifeAndDeathBonus:
 	_testSkill(HeroesLifeAndDeathID,5,0)
 
-prSkillFury:
-  rIfUnitHasSkill(FuryID)
-    rAddConst(2)
-
 prFortressDefensePow:
 	_testSkill(FortressDefenseID,0,3)
 

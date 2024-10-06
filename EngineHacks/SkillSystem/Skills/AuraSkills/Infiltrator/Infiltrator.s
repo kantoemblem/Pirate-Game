@@ -24,32 +24,35 @@ ldr r0, GetUnitsInRange
 mov lr, r0
 mov r0, r4 @attacker
 mov r1, #3 @Enemy
-mov r2, #2
+mov r2, #2 @Range 
 .short 0xf800
 cmp r0, #0
 beq Done
 
-mov r2, #0x0
+mov r2, #0x0 @sets the counter to 0
 Loop:
-ldrb r1, [r0, r2]
-cmp  r1, #0x0
-beq  CheckCount
-add  r2, #0x1
+ldrb r1, [r0, r2] @ reads the nth entry
+cmp  r1, #0x0 @Checks whats in r1, if its 0, then its at the end of the list
+beq  Next @if thats the case branch, if not, loop
+add  r2, #0x1 @add one to the count
 b Loop
-
-CheckCount:
-cmp r2,#0x2
-blt Done
 
 Next:
 mov r0, #0x5A
 ldrh r3, [r4,r0]
-add r3, #3
+add r3, r2
 strh r3, [r4,r0]
 
 mov r0, #0x60
+mov r1, #5
 ldrh r3, [r4,r0]
-add r3, #15
+mul r2, r1
+add r3, r2
+strh r3, [r4,r0]
+
+mov r0, #0x62
+ldrh r3, [r4,r0]
+add r3, r2
 strh r3, [r4,r0]
 
 

@@ -108,6 +108,8 @@ MasteryIDLink:
 BYTE MasteryID
 ChaoticFuryIDLink:
 BYTE ChaoticFuryID
+CritUpIDLink:
+BYTE CritUpID
 
 ALIGN 4
 Proc_Finish:

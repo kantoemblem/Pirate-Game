@@ -6,7 +6,7 @@
 pSkillModifiers: // Skill
 	POIN prAddUnitSkill prHalveIfRescuing prHalveIfCapturing 
 	POIN prDebuffSkl 
-	POIN prAddEquipSkill prItemPassiveSkl prRallySkl prResolve prSkillFury prDefiantSkl prPushSkl
+	POIN prAddEquipSkill prItemPassiveSkl prSkillDevilAxeSkl prRallySkl prResolve prSkillFury prDefiantSkl prPushSkl
 	#ifdef DEBUFFS_MIN_ZERO
 	POIN prMinZero
 	#endif
@@ -17,6 +17,10 @@ prAddUnitSkill:
 
 prAddEquipSkill:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemSklBonus)))
+	
+prSkillDevilAxeSkl:
+	rIfUnitHasSkill(DevilAxeID)
+		rConstant(0)
 
 prItemPassiveSkl:
 #ifndef DONT_STACK_BOOSTS

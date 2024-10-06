@@ -67,7 +67,13 @@ I'm falling back[...A][X]
 I'll just[...] get out of the way[...A][X]
 
 ## SonuDeath
-[OpenMidRight][LoadSonu][SonuBoop][MoveMidRight][CloseEyes]YEOWCH![....] [OpenEyes]Yeah, I can't fight like[N]
-this[...A][N]
+[OpenMidRight][LoadSonu][SonuBoop][MoveMidRight][CloseEyes]YEOWCH![....] [OpenEyes]Yeah, I can't[N]
+fight like this[...A][N]
 I'm gonna split.[N]
 [ToggleSmile]Take care everyone![A][X]
+
+## TiaDeath
+[OpenMidRight][LoadTia][TiaBoop][CloseEyes]Nngghhh[...] [OpenEyes]I'm pretty roughed[N]
+up,[LoadTiaSad][TiaBoop][....][CloseEyes] and not in a good way.[AN]
+[OpenEyes]Sorry, darlings. I need to[N]
+fall back for now[...A][X]

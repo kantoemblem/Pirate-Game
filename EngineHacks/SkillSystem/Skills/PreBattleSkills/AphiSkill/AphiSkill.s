@@ -63,6 +63,11 @@ ldrh r0, [r4, r1]
 add r0, #3
 strh r0, [r4,r1]
 
+mov r1, #0x5E @ Attack Speed
+ldrh r0, [r4, r1]
+sub r0, #3
+strh r0, [r4,r1]
+
 mov r1, #0x60 @ Hit
 ldrh r0, [r4, r1]
 add r0, #15

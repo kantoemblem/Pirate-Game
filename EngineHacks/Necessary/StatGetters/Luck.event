@@ -6,7 +6,7 @@
 pLuckModifiers: // Luck
 	POIN prAddUnitLuck prHalveIfCapturing 
 	POIN prDebuffLuk 
-	POIN prAddEquipLuck prItemPassiveLuck prRallyLuk prDefiantLck
+	POIN prAddEquipLuck prItemPassiveLuck prSkillDevilAxeLuck prRallyLuk prDefiantLck
 	POIN prSkillFury
 	#ifdef DEBUFFS_MIN_ZERO
 	POIN prMinZero
@@ -19,6 +19,9 @@ prAddUnitLuck:
 prAddEquipLuck:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemLckBonus)))
 
+prSkillDevilAxeLuck:
+	rIfUnitHasSkill(DevilAxeID)
+		rConstant(0)
 
 prItemPassiveLuck:
 #ifndef DONT_STACK_BOOSTS

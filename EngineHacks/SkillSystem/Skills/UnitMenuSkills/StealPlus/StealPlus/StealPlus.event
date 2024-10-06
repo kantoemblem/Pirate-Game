@@ -31,6 +31,7 @@ Rogue_Robbery:
 #incbin "FE8-Rogue_Robbery.dmp"
 POIN prConGetter
 POIN SkillTester
+WORD CharmID
 WORD StealPlusID
 WORD WatchfulID
 
@@ -91,6 +92,7 @@ WORD WatchfulID
 	POIN SkillTester
 	WORD StealID
 	WORD StealPlusID
+	WORD CharmID
 	WORD ALSO_USE_VANILLA_STEAL_CHECK
 	
 #endif

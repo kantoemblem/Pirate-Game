@@ -19,6 +19,16 @@ ldrb r0, [r4, r0] @r0 = Equipped weapon type
 cmp r0, #0x6 @Light weapon type
 bne DarkCheck
 
+mov r1, #0x5A @ Attack
+ldrh r0, [r4, r1]
+sub r0, #3
+strh r0, [r4,r1]
+
+mov r1, #0x5C @ Defense
+ldrh r0, [r4, r1]
+sub r0, #3
+strh r0, [r4,r1]
+
 mov r1, #0x5E @ Attack Speed
 ldrh r0, [r4, r1]
 add r0, #3
@@ -42,6 +52,11 @@ mov r0, #0x50
 ldrb r0, [r4, r0] @r0 = Equipped weapon type
 cmp r0, #0x7 @Dark weapon type
 bne End
+
+mov r1, #0x5A @ Attack
+ldrh r0, [r4, r1]
+add r0, #3
+strh r0, [r4,r1]
 
 mov r1, #0x5C @ Defense
 ldrh r0, [r4, r1]

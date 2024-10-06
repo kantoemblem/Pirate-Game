@@ -106,6 +106,8 @@ BarricadePlusIDLink:
 BYTE BarricadePlusID
 MasteryIDLink:
 BYTE MasteryID
+ChaoticFuryIDLink:
+BYTE ChaoticFuryID
 
 ALIGN 4
 Proc_Finish:

@@ -86,6 +86,12 @@ POIN SkillTester
 WORD FrenzyID
 
 ALIGN 4
+ChaoticFury:
+#incbin "ChaoticFury/ChaoticFury.dmp"
+POIN SkillTester
+WORD ChaoticFuryID
+
+ALIGN 4
 Gamble:
 #incbin "Gamble/Gamble.dmp"
 
@@ -406,9 +412,14 @@ Inspirit:
 POIN SkillTester
 WORD InspiritID
 
+
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 
+LivvyPassive:
+#incbin "LivvyClassPassive/LivvyPassive.dmp"
+POIN SkillTester
+WORD LivvyPersonalID
 
 #ifdef MODULAR_PRE_BATTLE_SKILLS
 	ALIGN 4

@@ -8,20 +8,19 @@
 
 @r0=char data ptr
 
-.equ StealID, SkillTester+4
-.equ StealPlusID, StealID+4
-.equ AlsoUseCheckVanillaSteal, StealPlusID+4
+.equ CharmID, SkillTester+4
+.equ AlsoUseCheckVanillaSteal, CharmID+4
 
 push	{r4-r5,r14}
 mov		r4,r0
 ldr		r5,SkillTester
-ldr		r1,StealID
+ldr		r1,CharmID
 mov		r14,r5
 .short	0xF800
 cmp		r0,#0
 bne		RetTrue
 mov		r0,r4
-ldr		r1,StealPlusID
+ldr		r1,CharmID
 mov		r14,r5
 .short	0xF800
 cmp		r0,#0

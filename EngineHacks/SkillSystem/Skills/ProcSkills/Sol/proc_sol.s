@@ -21,7 +21,7 @@ lsl r1, #8 @0xC000
 add r1, #0x82 @miss OR devil
 tst r0, r1
 bne End
-@if another skill already activated, don't do anything
+@if another skill already activated, dont do anything
 
 @check for Sol proc
 ldr r0, SkillTester
@@ -33,11 +33,7 @@ cmp r0, #0
 beq End
 @if user has sure shot, check for proc rate
 
-ldrb r0, [r4, #0x15] @skill stat as activation rate
-mov r1, r4 @skill user
-blh d100Result
-cmp r0, #1
-bne End
+
 
 @if we proc, set the offensive skill flag
 ldr     r2,[r6]    
@@ -65,7 +61,7 @@ ldsh	r1, [r7, r1]    @ damage
 ldrb  r2, [r5, #0x13] @ defender's curr hp
 cmp   r1, r2
 ble   defLives        @ Damage taken / HP healed by attacker
-  mov   r1, r2        @ can't exceed damage dealt to defender.
+  mov   r1, r2        @ cant exceed damage dealt to defender.
 defLives:
 cmp	r0,#0
 beq	noOoze

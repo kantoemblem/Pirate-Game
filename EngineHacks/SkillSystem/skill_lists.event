@@ -1,12 +1,12 @@
 ALIGN 4
 BenSkills:
-BYTE 5  StrongRiposteID
+BYTE 5  InfiltratorID
 BYTE 10 ChaoticFuryID
 BYTE 00 00
 ALIGN 4
 
 LivSkills:
-BYTE 5 CantoID
+BYTE 5 DuelistsBlowID
 BYTE 10 PowerStaffID
 BYTE 00 00
 ALIGN 4
@@ -30,8 +30,8 @@ BYTE 00 00
 ALIGN 4
 
 HexSkills:
-BYTE 25 TrampleID
-BYTE 30 InfiltratorID
+BYTE 5 TrampleID
+BYTE 10 NullifyID
 BYTE 00 00
 ALIGN 4
 
@@ -42,8 +42,8 @@ BYTE 00 00
 ALIGN 4
 
 MaeSkills:
-BYTE 25 RouseStrID
-BYTE 30 DoubleLionID
+BYTE 5 RouseStrID
+BYTE 10 DoubleLionID
 BYTE 00 00
 ALIGN 4
 
@@ -59,7 +59,7 @@ BYTE 10 WaryFighterID
 BYTE 00 00
 ALIGN 4
 
-MimiSkills:
+MimiSkills: 				//Also due for fixing
 BYTE 5 VantageID
 BYTE 10 DefiantAvoID
 BYTE 00 00
@@ -89,6 +89,10 @@ BYTE 10 SwarpID
 BYTE 00 00
 ALIGN 4
 
+Tarte2Skills:
+BYTE 21 NiceThighsID
+BYTE 00 00
+ALIGN 4
 
 
 //Stuff that was here when I started that I dont Want to touch

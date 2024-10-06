@@ -2,6 +2,19 @@
 Debil[X]
 
 ## DebilDesc
-A member of Narmosa's[N]
-Ne'er-do-wells. Dimwitted.[X]
+A pirate working under[N]
+Solaris. Dimwitted.[X]
 
+## UrodName
+Urod[X]
+
+## UrodDesc
+Captain of a pirate crew in[N]
+Tarte's employ. Tenacious.[X]
+
+## TarteName
+Tarte[X]
+
+## TarteDesc
+The most diabolical[N]
+villain in history!!![X]

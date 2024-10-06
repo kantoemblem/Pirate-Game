@@ -938,7 +938,7 @@
 
 //Moonlight: Cannot double but opponent cannot counterattack.
 //By Sme
-#define MoonlightID 142
+#define MoonlightID 255
 
 // Reckless Fighter: Both units in combat always double. 
 // By Vesly 
@@ -955,7 +955,7 @@
 
 // Bold Fighter: When attacking, this unit always doubles. 
 // By Vesly 
-#define BoldFighterID 255 
+#define BoldFighterID 142 
 
 // Vengeful Fighter: When defending, this unit always doubles. 
 // By Vesly 
@@ -1023,7 +1023,7 @@
 #define LullLckID 255
 #define LullDefID 255
 #define LullResID 255
-#define LullSpectrumID 155
+#define LullSpectrumID 255
 
 //Guts:  +5 Str while under any status condition. (Includes dancer rings.) 
 // Author: Vesly 
@@ -1295,6 +1295,10 @@
 
 //Chaotic Fury
 #define ChaoticFuryID 154
+
+// Devil Axe
+#define DevilAxeID 155
+
 
 //Display-Only Skills
 

@@ -10,6 +10,10 @@
 #include "Chapter2.event"
 }
 
+{
+#include "Chapter3.event"
+}
+
 PUSH
 //Skip very beginning world map
 ORG $A39768

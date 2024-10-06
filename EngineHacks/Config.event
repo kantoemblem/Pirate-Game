@@ -11,7 +11,7 @@
 //#define USE_TEST_MAP
 
 // The amount of attack speed needed to double an opponent.
-#define AS_DOUBLING_THRESHOLD 5
+#define AS_DOUBLING_THRESHOLD 4
 
 // If true, dropped items will retain their durability.
 #define DROPPED_ITEM_DURABILITY True
@@ -148,7 +148,7 @@
 
 //If uncommented, Cannot Crit will be implemented.
 //Makes weapon crit of 255 negate crits.
-//#define CANNOT_CRIT
+#define CANNOT_CRIT
 
 //If uncommented, AdvWeaponLocks will be implemented.
 //This is a rewrite of venno's array-based weapon locks.

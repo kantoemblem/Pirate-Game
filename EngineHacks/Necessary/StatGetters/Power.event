@@ -6,7 +6,7 @@
 pPowerModifiers: // Power
 	POIN prAddUnitPower prHalveIfCapturing HalfStrFunc 
 	POIN prDebuffStr Guts
-	POIN prAddEquipPower prItemPassivePow prRallyStr prLifeAndDeathBonus prSkillFury prFortressDefensePow VigorDanceCheck prFortressResistancePow prResolve prDefiantStr prPushStr
+	POIN prAddEquipPower prItemPassivePow prRallyStr prSkillDevilAxePow prLifeAndDeathBonus prSkillFury prFortressDefensePow VigorDanceCheck prFortressResistancePow prResolve prDefiantStr prPushStr
 	#ifdef DEBUFFS_MIN_ZERO
 	POIN prMinZero
 	#endif
@@ -17,6 +17,10 @@ prAddUnitPower:
 	
 prAddEquipPower:
 	rAdd(rForUnitEquipped(rCallExternal(prGetItemPowBonus)))
+	
+prSkillDevilAxePow:
+	rIfUnitHasSkill(DevilAxeID)
+		rConstant(20)
 
 prLifeAndDeathBonus:
 	_testSkill(HeroesLifeAndDeathID,5,0)
