@@ -158,7 +158,7 @@
 
 // _ Taker: After attacking and defeating an enemy, gain +4 _. (Max +10) 
 // Author: Vesly 
-#define StrTakerID 255
+#define StrTakerID 79
 #define SklTakerID 255 
 #define SpdTakerID 255 
 #define DefTakerID 255 
@@ -221,8 +221,8 @@
 
 //Seal Skills: Debuff opponent's stat by 6 after combat. (Recover 1/turn)
 //Author Unknown (Initial Commit)
-#define SealStrID 79
-#define SealSklID 81
+#define SealStrID 255
+#define SealSklID 255
 #define SealSpdID 82
 #define SealLukID 85
 #define SealDefID 83
@@ -1218,7 +1218,7 @@
 
 //Discipline+: Weapon experience gains are doubled. Unit may S-Rank multiple weapon types.
 //By Zeta
-#define DisciplinePlusID 98
+#define DisciplinePlusID 255
 
 //Watchful: This unit cannot be captured or stolen from.
 //By Sme
@@ -1299,10 +1299,14 @@
 // Devil Axe
 #define DevilAxeID 155
 
+// VexingSpirit: Mimi lowers enemies attack and movement by 5 and 3 after combat, also grants miracle
+#define VexingSpiritID 81
+
+
 
 //Display-Only Skills
 
-#define CunningID 255
+#define CunningID 98
 #define NiceThighsID 115
 #define PersonalityID 116
 

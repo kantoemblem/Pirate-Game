@@ -1,3 +1,11 @@
+setText(0x4FE, AtkName)
+setText(0x4FF, AtkName)
+ALIGN 4
+AtkName:
+String("Atk")
+BYTE 0
+
+
 //Characters
 PUSH
 ORG 0x23F88 //Eirika Campaign Supply
@@ -14,7 +22,7 @@ BYTE 0x2
 ORG 0x3327C
 BYTE 0x2
 
-// Set Title Screen Theme to 0x2
+// Set Title Screen Theme to 0x1
 ORG 0x09ABE
 BYTE 0x1
 ORG 0xC640A
@@ -29,33 +37,34 @@ BYTE 0x1
 
 //Stat Bar Max Length
 ORG 0x87132
-BYTE 20
+BYTE 23
 ORG 0x87142
-BYTE 20
+BYTE 23
 ORG 0x870FE
-BYTE 20
+BYTE 23
 ORG 0x87102
-BYTE 20
+BYTE 23
 ORG 0x87154
-BYTE 20
+BYTE 23
+
 
 // Change Maximum Luck Cap
 ORG 0x872AE
-BYTE 20
+BYTE 25
 ORG 0x2C016
-BYTE 20
+BYTE 25
 ORG 0x2C01C
-BYTE 20
+BYTE 25
 ORG 0x18250
-BYTE 20
-ORG 0x818254
-BYTE 20
+BYTE 25
+ORG 0x18254
+BYTE 25
 ORG 0x926FC
-BYTE 20
+BYTE 25
 ORG 0x9C154
-BYTE 20
+BYTE 25
 ORG 0x9C31C
-BYTE 20
+BYTE 25
 
 //Staff EXP
 ORG 0x2C676
@@ -97,8 +106,9 @@ BYTE 0x02 0xf0 0x2d 0xf9
 //Staff Range = Res/2
 ORG 0x18a3a
 BYTE 0xFD 0xF7 0x51 0xFD
-
 ORG 0x18a3e
 BYTE 0x18
+
+
 
 POP

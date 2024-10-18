@@ -45,6 +45,11 @@ Peddler's Pike[X]
 ## MerchantLanceDesc ^
 Nana's trusty companion. Cancels enemy skills.[X]
 
+## OrevName
+Orev[X]
+
+## OrevDesc
+A battle axe favored by Ostrava.[X]
 
 ## RenewalRingName ^
 Renewal Ring[X]

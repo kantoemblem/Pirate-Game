@@ -13,6 +13,9 @@ bl SkillTester @ Call SkillTester
 cmp r0, #1 @ Returns 1 if we have the skill, returns 0 if not
 beq PlayerPhase @ if we do not have the skill, exit the function
 mov r0, r5
+ldr r1, =DraconicHexID @ load the skill ID (as a pointer)
+lsl r1, #24 @ Strip the value down to just the skill ID
+lsr r1, #24 @ Strip the value down to just the skill ID
 bl SkillTester @ Call SkillTester
 cmp r0, #1
 beq EnemyPhase

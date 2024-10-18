@@ -158,7 +158,7 @@
 
 // _ Taker: After attacking and defeating an enemy, gain +4 _. (Max +10) 
 // Author: Vesly 
-#define StrTakerID 255
+#define StrTakerID 79
 #define SklTakerID 255 
 #define SpdTakerID 255 
 #define DefTakerID 255 
@@ -221,8 +221,8 @@
 
 //Seal Skills: Debuff opponent's stat by 6 after combat. (Recover 1/turn)
 //Author Unknown (Initial Commit)
-#define SealStrID 79
-#define SealSklID 81
+#define SealStrID 255
+#define SealSklID 255
 #define SealSpdID 82
 #define SealLukID 85
 #define SealDefID 83
@@ -1023,7 +1023,7 @@
 #define LullLckID 255
 #define LullDefID 255
 #define LullResID 255
-#define LullSpectrumID 155
+#define LullSpectrumID 255
 
 //Guts:  +5 Str while under any status condition. (Includes dancer rings.) 
 // Author: Vesly 
@@ -1295,6 +1295,14 @@
 
 //Chaotic Fury
 #define ChaoticFuryID 154
+
+// Devil Axe
+#define DevilAxeID 155
+
+// VexingSpirit: Mimi lowers enemies attack and movement by 5 and 3 after combat, also grants miracle
+#define VexingSpiritID 81
+
+
 
 //Display-Only Skills
 

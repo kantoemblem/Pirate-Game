@@ -16,6 +16,7 @@ POIN SavageBlow BreathOfLife Despoil Lifetaker Fury PoisonStrike GrislyWound//li
 POIN StrTaker SklTaker SpdTaker DefTaker ResTaker LukTaker MagTaker MovTaker 
 POIN Canto CantoPlus RosePersonal Galeforce FailGale ReMove Powerstaff CulturedPostCombat Gridmaster //this order for canto and friends is the only one I tested
 POIN DraconicHex
+POIN VexingSpirit
 POIN LivvyPersonal
 #ifdef GAIDEN_MAGIC
 	POIN GaidenZeroOutSpellVariables // without this there was an R-text bug when obtaining an item during the end scene after KOing an enemy 

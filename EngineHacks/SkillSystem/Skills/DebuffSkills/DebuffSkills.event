@@ -8,7 +8,7 @@ POP
 
 ALIGN 4 
 DebuffAmount: 
-WORD 6 
+WORD 5 
 
 ALIGN 4
 SealSkills:
@@ -35,3 +35,8 @@ ALIGN 4
 DraconicHex:
 #include "DraconicHex/DraconicHex.lyn.event"
 #include "DraconicHex/DraconicHexdebuff.event"
+
+ALIGN 4
+VexingSpirit:
+#include "VexingSpirit/VexingSpirit.lyn.event"
+#include "VexingSpirit/MimiDebuff.event"

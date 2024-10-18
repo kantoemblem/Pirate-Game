@@ -1,4 +1,5 @@
 .thumb
+.align
 @draws the stat screen
 .include "mss_defs.s"
 

@@ -47,9 +47,9 @@ BYTE 10 DoubleLionID
 BYTE 00 00
 ALIGN 4
 
-OstravaSkills:              //This is gross and bad fix it
-BYTE 5 SteadyStanceID
-BYTE 10 CamaraderieID
+OstravaSkills:
+BYTE 5 StrTakerID
+BYTE 10 PuissanceID
 BYTE 00 00
 ALIGN 4
 
@@ -59,9 +59,9 @@ BYTE 10 WaryFighterID
 BYTE 00 00
 ALIGN 4
 
-MimiSkills: 				//Also due for fixing
-BYTE 5 VantageID
-BYTE 10 DefiantAvoID
+MimiSkills:
+BYTE 5 AnathemaID
+BYTE 10 VantageID
 BYTE 00 00
 ALIGN 4
 

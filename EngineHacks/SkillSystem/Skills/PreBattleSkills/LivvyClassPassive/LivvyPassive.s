@@ -1,5 +1,6 @@
 .thumb
 .equ LivvyPersonalID, SkillTester+4
+.equ gBattleStats, 0x203A4D4
 
 push {r4-r7, lr}
 mov r4, r0 @atkr
@@ -13,6 +14,12 @@ ldr r1, LivvyPersonalID
 .short 0xf800
 cmp r0, #0
 beq End
+
+ldr  r0,=gBattleStats    @pre-battle data pointer, gonna check if a target has been selected or the fight has started (0x02 if targeting someone, 0x01 if battle started)
+ldrb r0,[r0]
+mov  r1,#0x3
+tst  r0,r1
+beq  End
 
 mov r0, #0x50 @Checks if sword is equipped
 ldrb r0, [r4, r0] @r0 = Equipped weapon type

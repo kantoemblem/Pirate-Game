@@ -1,0 +1,7 @@
+# 0x546 AtkDescription
+Attack Power. The higher the number,[N]
+the more damage this unit inflicts.[X]
+
+# 0x547 AtkDescription2
+Attack Power. The higher the number,[N]
+the more damage this unit inflicts.[X]

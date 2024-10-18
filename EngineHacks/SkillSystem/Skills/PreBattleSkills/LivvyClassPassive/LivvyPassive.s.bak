@@ -20,9 +20,9 @@ cmp r0, #0x0 @Sword weapon type
 bne End
 
 mov r2, #0x17 @ Defense
-ldrh r0, [r5, r2]
+ldrb r0, [r5, r2]
 mov r3, #0x18 @ Resistance
-ldrh r1, [r5, r3]
+ldrb r1, [r5, r3]
 cmp r0, r1
 ble End
 

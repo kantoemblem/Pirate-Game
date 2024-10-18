@@ -24,6 +24,8 @@ mov	r5, #0x0F
 
 SkipSet:
 @add turn to hit and avoid (if turn is higher than 15, add 15)
+mov r0, #0x3
+mul r5, r0
 mov	r0, #0x60
 ldrh	r1, [r4,r0]	@load hit
 add	r1, r5		@add turn to hit (max 15)
@@ -33,6 +35,11 @@ mov	r0, #0x62
 ldrh	r1, [r4,r0]	@load avoid
 add	r1, r5		@add turn to avoid (max 15)
 strh	r1, [r4,r0]     @store
+
+mov r0, #0x66 @ Crit
+ldrh r1, [r4, r0]
+add r1, r5
+strh r1, [r4,r0]
 
 End:
 pop	{r4-r5, r15}

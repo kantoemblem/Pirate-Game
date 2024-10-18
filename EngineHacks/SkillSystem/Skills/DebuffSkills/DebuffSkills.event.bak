@@ -8,7 +8,7 @@ POP
 
 ALIGN 4 
 DebuffAmount: 
-WORD 6 
+WORD 5 
 
 ALIGN 4
 SealSkills:
@@ -34,6 +34,9 @@ POIN DebuffStatBitOffset_Mag
 ALIGN 4
 DraconicHex:
 #include "DraconicHex/DraconicHex.lyn.event"
-POIN SkillTester
-WORD DraconicHexID
 #include "DraconicHex/DraconicHexdebuff.event"
+
+ALIGN 4
+VexingSpirit
+#include "VexingSpirit/VexingSpirit.lyn.event"
+#include "VexingSpirit/MimiDebuff.event"

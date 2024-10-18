@@ -12,6 +12,12 @@ ChapterName2:
 String("Chapter 2")
 BYTE 0
 
+setText(0x1a3, ChapterObjective2)
+ALIGN 4
+ChapterObjective2:
+String("Defeat Urod")
+BYTE 0
+
 ALIGN 4
 Chapter2:
 POIN TurnBasedEvents

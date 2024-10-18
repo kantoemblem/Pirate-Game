@@ -4,7 +4,7 @@
   mov lr, \reg
   .short 0xf800
 .endm
-.equ MiracleID, SkillTester+4
+.equ VexingSpiritID, SkillTester+4
 .equ d100Result, 0x802a52c
 @ r0 is attacker, r1 is defender, r2 is current buffer, r3 is battle data
 push {r4-r7,lr}
@@ -21,7 +21,7 @@ mov r1, #2 @miss
 tst r0, r1
 bne End
 
-@check defender's hp >50%
+@check defenders hp >50%
 ldrb r0, [r5,#0x12] @max hp
 ldrb r1, [r5,#0x13] @current hp
 cmp r1, #1 @1hp left?
@@ -40,7 +40,7 @@ blt End @not gonna die
 ldr r0, SkillTester
 mov lr, r0
 mov r0, r5 @defender data
-ldr r1, MiracleID
+ldr r1, VexingSpiritID
 .short 0xf800
 cmp r0, #0
 beq End

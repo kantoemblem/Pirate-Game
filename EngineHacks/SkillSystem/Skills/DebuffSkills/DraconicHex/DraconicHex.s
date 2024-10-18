@@ -1,4 +1,11 @@
 .thumb
+.macro blh to, reg=r3
+    ldr \reg, =\to
+    mov lr, \reg
+    .short 0xF800
+.endm
+.equ AreUnitsAllied, 0x8024D8D
+
 
 push {r4-r7, lr} @ save values of registers r4, r5, r6, r7, and lr to the stack
 mov r4, r0 @ r4 = pointer to attackers battle unit struct
@@ -22,6 +29,12 @@ beq EnemyPhase
 b End
 
 PlayerPhase:
+ldrb r0, [r4, #0x0B] @attacker allegiance
+ldrb r1, [r5, #0x0B] @defender allegiance
+blh AreUnitsAllied
+cmp r0, #1
+beq End
+
 mov r0, r5 @ unit 
 bl GetUnitDebuffEntry 
 mov r4, r0 @ debuffRam 
@@ -32,6 +45,12 @@ bl DebuffGivenTableEntry
 b End
 
 EnemyPhase:
+ldrb r0, [r4, #0x0B] @attacker allegiance
+ldrb r1, [r5, #0x0B] @defender allegiance
+blh AreUnitsAllied
+cmp r0, #1
+beq End
+
 mov r0, r4 @ unit 
 bl GetUnitDebuffEntry 
 mov r5, r0 @ debuffRam 

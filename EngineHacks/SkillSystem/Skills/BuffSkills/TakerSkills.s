@@ -21,7 +21,7 @@
 
 @ After defeating an enemy, gain +X Str. 
 @ Config for amount
-@ each function looks identical to this except with the relevant skill, so they're lower down 
+@ each function looks identical to this except with the relevant skill, so theyre lower down 
 .global StrTaker 
 .type StrTaker, %function 
 StrTaker: 
@@ -129,7 +129,7 @@ bx r0
 .global PostBattleFunc_Killed 
 .type PostBattleFunc_Killed, %function 
 PostBattleFunc_Killed: @ all the post battle functions seem to do this 
-@ idk why we don't just put this at the start of the loop *shrugs* 
+@ idk why we dont just put this at the start of the loop *shrugs* 
 @check if dead
 ldrb	r3, [r0,#0x13]
 cmp	r3, #0x00

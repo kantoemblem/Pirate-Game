@@ -1674,9 +1674,10 @@ Chromatic Tactics: Boosts stats of allies[N]
 within two spaces based on equipped weapon.[N]
 Fire: Atk Thunder: Def Wind: Spd[X]
 
-## SD_Zornhau
-Zornhau: +5 Dmg dealt/taken[N]
-when initiating battle.[X]
+## SD_Zornhau ^
+Zornhau: When Ostrava's opponent has[N]
+max HP, he gains Hit/Avo/Crit/Ddg +15.[N]
+When they're below max HP, Damage +3.[X]
 
 ## SD_DraconicHex ^
 Draconic Hex: Debuff all opponent's stats[N]
@@ -1714,3 +1715,9 @@ until next turn[X]
 Chaotic Fury: Gain +1 crit per missing[N]
 HP. Additionally, on Crit, 50% of[N]
 unit's missing HP is added to damage.[X]
+
+## SD_VexingSpirit ^
+Vexing Spirit: Debuff opponent's Atk by 5[N]
+and Mov by 3 after combat for 1 turn. Mimi[N]
+also survives lethal attacks if HP > 50%.[X]
+
