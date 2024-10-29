@@ -25,18 +25,18 @@ beq     MachineSkill
 ForceSkill:
 mov     r0,r5       @Move unit data into r0.
 
-mov		r1,#0x16	@Position of unit skill
-ldrb	r2,[r0,r1]  @Get units skill
+mov		r1,#0x15	@Position of unit skill
+ldrb	r2,[r0,r1]  @Get unit's skill
 
-add     r0,#0x66    @Move to the attackers crit.
-ldrh    r3,[r0]     @Load the attackers crit into r3.
-add     r3,r3,r2    @Add r2 to the attackers crit.
+add     r0,#0x66    @Move to the attacker's crit.
+ldrh    r3,[r0]     @Load the attacker's crit into r3.
+add     r3,r3,r2    @Add r2 to the attacker's crit.
 strh    r3,[r0]     @Store attacker crit.
 b       SkillReturn
 MachineSkill:
 mov     r0,r5       @Move unit data into r0.
 add     r0,#0x66    @Move to the attacker's crit.
-ldrh    r3,[r0]     @Load the attackers crit into r3.
+ldrh    r3,[r0]     @Load the attacker's crit into r3.
 lsl		r3,r3,#0x01		@Double critical
 strh    r3,[r0]     @Store attacker avoid.
 EndProgram:

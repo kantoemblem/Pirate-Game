@@ -35,7 +35,7 @@ Mimi[X]
 Rose[X]
 
 ## ZanosName
-Zanos[X]
+Ashley[X]
 
 ## SonuName
 Sonu[X]
@@ -98,8 +98,8 @@ A wandering mercenary currently in Ben's[N]
 employ. Sharp tongued, but kind.[X]
 
 ## ZanosDesc
-A self-deprecating vagabond, they[N]
-aspire to better themselves.[X]
+A self-deprecating vagabond, she[N]
+aspires to better themselves.[X]
 
 ## SonuDesc
 A cheerful adventurer who leaves[N]

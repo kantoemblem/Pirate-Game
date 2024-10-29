@@ -416,6 +416,7 @@ WORD InspiritID
 #include "KeenFighter/Installer.event" 
 #include "FlankSwarmScale/Installer.event" 
 
+ALIGN 4
 LivvyPassive:
 #incbin "LivvyClassPassive/LivvyPassive.dmp"
 POIN SkillTester

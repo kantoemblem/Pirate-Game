@@ -413,7 +413,7 @@ would appreciate the help.[A][X]
 [OpenMidLeft][LoadRose][RoseBoop][OpenMidRight][LoadBen][BenBoop]You're in.[A][X]
 
 ## ZanosTalk
-[OpenMidLeft][LoadZanos][ZanosBoop][OpenMidRight][LoadBen][BenBoop][1L]Is everything alright, Zanos?[A][CSS][LoadBenSad][BenBoop][ToggleSmile][2L]You're uh[...] awfully[N]
+[OpenMidLeft][LoadZanos][ZanosBoop][OpenMidRight][LoadBen][BenBoop][1L]Is everything alright, Ashley?[A][CSS][LoadBenSad][BenBoop][ToggleSmile][2L]You're uh[...] awfully[N]
 hidden away back here[...A][OpenMidLeft][ToggleSmile][1L][CloseEyes][...]I'm just trying to keep out of the sun[...A][CSS][OpenEyes][3L]If a battle commences,[N]
 I won't be of much use if[N]
 I'm distracted by a sunburn.[A]
@@ -431,7 +431,7 @@ check on you.[A][CSS]
 the frontlines in the event of a battle.[A][CSS]
 [3L][ToggleSmile]You're pretty handy with a staff,[N]
 and tough as nails to boot![N]
-I could use a person like you out there.[A]
+I could use a girl like you out there.[A]
 [OpenMidLeft][OpenEyes][2L][...]I suppose if you're planning to pay[N]
 me, I best do my job, huh?[....] Very well.[A][X]
 

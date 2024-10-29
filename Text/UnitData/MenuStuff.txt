@@ -1,3 +1,7 @@
+# 0x1A4 Chapter3Objective ^
+Survive for X turns[N]
+or defeat Perkus[X]
+
 # 0x546 AtkDescription
 Attack Power. The higher the number,[N]
 the more damage this unit inflicts.[X]

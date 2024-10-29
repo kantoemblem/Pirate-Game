@@ -181,9 +181,9 @@ Tomefaire: +4 damage[N]
 when equipping a tome.[X]
 
 ## SD_CritUp ^
-Black Flash: Nate gains +15 crit[N]
+Black Flash: Nate gains +15 Crit[N]
 at base. When landing a crit, gain[N]
-+50 avo/+5 crit during next combat.[X]
++50 Avo/+5 Crit during next combat.[X]
 
 ## SD_Slayer
 Slayer: Deal effective damage[N]
@@ -233,9 +233,10 @@ deal +2 damage and receive -2 damage.[X]
 Divinely Inspiring: Adjacent allies[N]
 deal +3 damage and receive -1 damage.[X]
 
-## SD_Charm
-Charm: Allies within 2[N]
-tiles deal +2 damage.[X]
+## SD_Charm ^
+Enchanting: Tia rouses enemies and allies alike.[N]
+Enemies suffer -3 Dmg, -15 Hit, and allies gain[N]
++3 Dmg, +15 Hit in combat when adjacent to Tia.[X]
 
 ## SD_VoiceOfPeace
 Voice of Peace: Enemies within[N]
@@ -579,9 +580,9 @@ Breath of Life: After attacking,[N]
 allies in 2 tiles heal of 20% max HP.[X]
 
 ## SD_Fury ^
-Blazing Justice: +1 Str/Skl/Spd/Lck [N]
-per 20% Max HP Missing. Unit takes[N]
-10% HP damage after combat.[X]
+Blazing Justice: Ben's burning spirit[N]
+of justice gives him +1 Atk/Skl/Spd/Lck[N]
+per 20% Max HP Missing.[X]
 
 ## SD_Dazzle
 Dazzle: Opponents cannot[N]
@@ -633,8 +634,8 @@ Vantage+: User always attacks first,[N]
 even if attacked. Negates crits.[X]
 
 ## SD_Hawkeye
-Hawkeye: User will[N]
-always hit the enemy.[X]
+Red Sun: Mae will[N]
+always hit her enemy.[X]
 
 ## SD_Solidarity
 Solidarity: Critical and Critical[N]
@@ -812,8 +813,8 @@ Holy Aura: Gain +1 damage, +5% hit,[N]
 +5% avoid, +5% crit when using light.[X]
 
 ## SD_SilentPride
-Silent Pride: Gain 2 damage and take[N]
--2 damage per 25% below max HP.[X]
+Silent Pride: Hex gains 2 damage and[N]
+takes -2 damage per 25% below max HP.[X]
 
 ## SD_Loyalty
 Loyalty: When within 2 spaces of[N]
@@ -833,14 +834,14 @@ Heavy Strikes: Add weapon[N]
 weight to critical chance.[X]
 
 ## SD_Charge ^
-Beastly Fusillade: Gain +1 damage &[N]
-defense for every two squares moved.[N]
+Beastly Fusillade: Ted gains +/-1 damage[N]
+dealt/taken for every two squares moved.[N]
 Bonus disappears on enemy phase.[X]
 
-## SD_Infiltrator
-Surrounded: If within 2 spaces[N]
-of two or more enemies, gain +3[N]
-damage and +15% hit.[X]
+## SD_Infiltrator ^
+Thrill of Battle: Ben gains +1 Dmg[N]
+and +5 Hit/Avo per unit in a 2 tile range.[X]
+
 
 ## SD_Vanity
 Vanity: Gain +2 Damage and +10 Hit[N]
@@ -1648,7 +1649,7 @@ after attacking but failing[N]
 to harm an enemy.[X]
 
 ## SD_Multiscale
-Hale and Hearty: Take half[N]
+Hale and Hearty: Nana takes half[N]
 damage when at full HP.[X]
 
 ## SD_Flank
@@ -1665,7 +1666,7 @@ Super Sonic Speed: Increases damage dealt[N]
 by 1 per Speed greater than opponent.[X]
 
 ## SD_AphiSkill ^
-Harmony: Unit recieves bonuses based on weapon.[N]
+Harmony: Aphi recieves bonuses based on weapon.[N]
 [light]: -3 Atk/Def, +3 AS, +15 Avo/Crit[N]
 [dark]: +3 Atk/Def, -3 AS, +15 Hit/DDG[X]
 
@@ -1684,18 +1685,18 @@ Draconic Hex: Debuff all opponent's stats[N]
 by 4 after combat. (Recover 2/turn)[X]
 
 ## SD_SonuPersonal ^
-Luna Assault: When unit initiates if foe[N]
-can counter, nullify foe's DEF/RES[X]
+Luna Assault: When Sonu initiates, if foe[N]
+can counter, nullify foe's Def/Res[X]
 
 ## SD_LivvyPersonal ^
-[OpenQuote]Go Get 'Em!": When this unit uses a[N]
+[OpenQuote]Go Get 'Em!": When Livvy uses a[N]
 staff to heal an ally, the target also[N]
-gain +1 MOV and +4 to a random stat.[X]
+gain +1 Mov and +4 to a random stat.[X]
 
 ## SD_RosePersonal ^
 Lone Wing: After initiating combat, if[N]
-there are no allies within 2 tiles, unit[N]
-can move up to 5 spaces after combat.[X]
+there are no allies within 2 tiles, Rose[N]
+can move up to 3 spaces after combat.[X]
 
 ## SD_Mastery ^
 Mastery: On critical, based on weapon:[N]
@@ -1707,9 +1708,9 @@ Inspirit: Deal +5 Damage to bosses.[X]
 
 
 ## SD_MutualTrust ^
-Mutual Trust: When healing an ally,[N]
-also heals self. Gains +4 def/res[N]
-until next turn[X]
+Mutual Trust: When Ashley heals an ally,[N]
+she also heals herself. She also gains[N]
++4 Def/Res until next turn.[X]
 
 ## SD_ChaoticFury ^
 Chaotic Fury: Gain +1 crit per missing[N]

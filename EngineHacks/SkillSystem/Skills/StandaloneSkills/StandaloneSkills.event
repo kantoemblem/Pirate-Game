@@ -88,6 +88,7 @@ LockTouch:
 #incbin "Locktouch/LockTouch.dmp"
 POIN SkillTester
 WORD LockTouchID
+WORD CharmID
 
 ALIGN 4
 Lunge:

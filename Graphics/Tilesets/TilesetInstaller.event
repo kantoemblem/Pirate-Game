@@ -18,14 +18,14 @@
 	
 	ALIGN 4
 	VillageAnimation:
-	TilesetAnimation(28,4096,VillageAnims1)
-	TilesetAnimation(28,4096,VillageAnims2)
-	TilesetAnimation(28,4096,VillageAnims3)
-	TilesetAnimation(28,4096,VillageAnims4)
-	TilesetAnimation(28,4096,VillageAnims5)
-	TilesetAnimation(28,4096,VillageAnims6)
-	TilesetAnimation(28,4096,VillageAnims7)
-	TilesetAnimation(28,4096,VillageAnims8)
+	TilesetAnimation(16,4096,VillageAnims1)
+	TilesetAnimation(16,4096,VillageAnims2)
+	TilesetAnimation(16,4096,VillageAnims3)
+	TilesetAnimation(16,4096,VillageAnims4)
+	TilesetAnimation(16,4096,VillageAnims5)
+	TilesetAnimation(16,4096,VillageAnims6)
+	TilesetAnimation(16,4096,VillageAnims7)
+	TilesetAnimation(16,4096,VillageAnims8)
 	WORD 0x00 0x00
 	
 	ALIGN 4

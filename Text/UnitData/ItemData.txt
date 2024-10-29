@@ -51,6 +51,12 @@ Orev[X]
 ## OrevDesc
 A battle axe favored by Ostrava.[X]
 
+## HeavenSpearName ^
+Heaven Spear[X]
+
+## HeavenSpearDesc ^
+A legendary cursed tool. Calcs crit with Spd.[X]
+
 ## RenewalRingName ^
 Renewal Ring[X]
 

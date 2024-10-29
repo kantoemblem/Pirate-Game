@@ -31,6 +31,8 @@ ldrh	r0,[r4]
 mov		r0,#0
 strh	r0,[r4]
 
+
+
 GoBack:
 pop		{r4-r5}
 pop		{r0}

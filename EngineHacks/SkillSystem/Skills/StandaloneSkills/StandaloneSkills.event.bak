@@ -52,10 +52,10 @@ jumpToHack(Synchronize)
 
 ORG $2F840 
 jumpToHack(ShrewdPotential) 
-
+/*
 ORG $31B84
 jumpToHack(ConcealedWeapon)
-
+*/
 
 POP
 
@@ -73,7 +73,7 @@ Discipline:
 POIN SkillTester
 WORD DisciplineID
 WORD DisciplinePlusID
-WORD ArmsMasterID
+//WORD ArmsMasterID
 
 ALIGN 4
 LiveToServe:

@@ -8,15 +8,11 @@ mov		r5,r1
 
 ldr		r0,[r4,#0x4]
 cmp		r0,#0
-bne		GoBack
+beq		GoBack
 mov		r0,#0x52
 ldrb	r0,[r4,r0]		@can unit counter
 cmp		r0,#0
 beq		GoBack
-
-ldr  r0, =gBattleActor
-cmp  r0, r5
-bne  GoBack @Opponent isnt initiating
 
 mov		r0,r5
 ldr		r1,SkillTester
@@ -25,6 +21,15 @@ ldr		r1, SonuPersonalID
 .short  0xF800
 cmp		r0,#0x0
 beq		GoBack
+
+mov r1, #0x62 @ Avoid
+ldrh r0, [r4, r1]
+add r0, #20
+strh r0, [r4,r1]
+
+ldr  r0, =gBattleActor
+cmp  r0, r5
+bne  Defender @Opponent isnt initiating
 
 add		r4,#0x5C
 ldrh	r0,[r4]

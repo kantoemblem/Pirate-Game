@@ -36,12 +36,12 @@ strh r0, [r4,r1]
 
 mov r1, #0x62 @ Avoid
 ldrh r0, [r4, r1]
-add r0, #15
+add r0, #20
 strh r0, [r4,r1]
 
 mov r1, #0x66 @ Crit
 ldrh r0, [r4, r1]
-add r0, #15
+add r0, #20
 strh r0, [r4,r1]
 b End
 
@@ -70,12 +70,12 @@ strh r0, [r4,r1]
 
 mov r1, #0x60 @ Hit
 ldrh r0, [r4, r1]
-add r0, #15
+add r0, #20
 strh r0, [r4,r1]
 
 mov r1, #0x68 @ Crit Avoid
 ldrh r0, [r4, r1]
-add r0, #15
+add r0, #20
 strh r0, [r4,r1]
 
 End:

@@ -18,7 +18,6 @@ mov r0, r4
 ldr r1, VigilanceID
 .short 0xf800
 cmp r0, #0
-bne Continue
 
 ldr r0, SkillTester
 mov lr, r0
@@ -28,8 +27,6 @@ ldr r1, SonuPersonalID
 cmp r0, #0
 beq GoBack
 
-
-Continue:
 mov r0, r4
 add r0,#0x62
 ldrh r3,[r0]

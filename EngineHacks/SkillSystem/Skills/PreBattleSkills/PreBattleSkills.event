@@ -280,6 +280,7 @@ Vigilance:
 #incbin "Vigilance/Vigilance.dmp"
 POIN SkillTester
 WORD VigilanceID
+WORD SonuPersonalID
 
 ALIGN 4
 WindDisciple:

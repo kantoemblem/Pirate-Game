@@ -87,6 +87,7 @@
 	TilesetAnimation(28,4096,FieldsAnims14)
 	TilesetAnimation(28,4096,FieldsAnims15)
 	TilesetAnimation(28,4096,FieldsAnims16)
+	WORD 0x0 0x0 
 
 	ALIGN 4
 	FieldsAnims1:

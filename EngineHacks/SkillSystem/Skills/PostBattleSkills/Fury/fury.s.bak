@@ -13,7 +13,7 @@ push	{lr}
 @ r5 = defender
 @ r6 = actiondata
 
-b End 
+
 
 @check if the action was an attack
 ldrb  r0, [r6,#0x11]  @action taken this turn
